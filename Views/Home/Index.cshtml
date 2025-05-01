@@ -1,0 +1,50 @@
+﻿@{
+    ViewData["Title"] = "Biblioteca Digital";
+}
+
+
+<div class="container mt-5">
+
+    <div class="text-center mb-5">
+        <h1 class="display-4 fw-bold">📚 Bem-vindo à Biblioteca Digital</h1>
+        <p class="lead text-muted">Gerencie seus livros, empréstimos e leitores com facilidade e agilidade.</p>
+    </div>
+
+    <div class="row g-4">
+
+        <div class="col-md-4">
+            <div class="card shadow-sm h-100 border-0">
+                <div class="card-body text-center">
+                    <i class="bi bi-book display-4 text-primary"></i>
+                    <h5 class="card-title mt-3">Gerenciar Livros</h5>
+                    <p class="card-text text-muted">Adicione, edite ou remova livros do acervo com apenas alguns cliques.</p>
+                    <a href="/Livro" class="btn btn-primary mt-2">Ver Livros</a>
+                </div>
+            </div>
+        </div>
+
+        <div class="col-md-4">
+            <div class="card shadow-sm h-100 border-0">
+                <div class="card-body text-center">
+                    <i class="bi bi-people-fill display-4 text-success"></i>
+                    <h5 class="card-title mt-3">Gerenciar Usuários</h5>
+                    <p class="card-text text-muted">Controle quem pode emprestar livros e acompanhe históricos de leitura.</p>
+                    <a href="/Usuario" class="btn btn-success mt-2">Ver Usuários</a>
+                </div>
+            </div>
+        </div>
+
+        <div class="col-md-4">
+            <div class="card shadow-sm h-100 border-0">
+                <div class="card-body text-center">
+                    <i class="bi bi-journal-check display-4 text-warning"></i>
+                    <h5 class="card-title mt-3">Empréstimos</h5>
+                    <p class="card-text text-muted">Gerencie o empréstimo e devolução de livros com notificações automatizadas.</p>
+                    <a href="/Emprestimos" class="btn btn-warning mt-2">Ver Empréstimos</a>
+                </div>
+            </div>
+        </div>
+
+    </div>
+
+</div>
