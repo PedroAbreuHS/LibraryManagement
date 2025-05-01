@@ -1,8 +1,7 @@
 ﻿@using LibraryManagement.Models
 @model IEnumerable<LivroModel>
 
-
-<div class="container mt-5" >
+<div class="container mt-5">
 
     <div class="mb-3">
         <a href="/" class="btn btn-outline-secondary shadow-sm">
@@ -10,66 +9,60 @@
         </a>
     </div>
 
-    <div class="btn-box d-flex justify-content-between align-items-center mt-3" >
-
-        <h2> <i class="bi bi-book display-4 text-primary me-3"></i> Cadastro de Livros </h2>
-        <a class="btn btn-success"><i class="bi bi-plus-circle"></i> Cadastrar Livro </a>
-
+    <div class="btn-box d-flex flex-column flex-md-row justify-content-between align-items-start align-items-md-center mt-3">
+        <h2 class="mb-2 mb-md-0">
+            <i class="bi bi-book display-4 text-primary me-3"></i> Cadastro de Livros
+        </h2>
+        <a class="btn btn-success" asp-action="Cadastrar" asp-controller="Livro">
+            <i class="bi bi-plus-circle"></i> Cadastrar Livro
+        </a>
     </div>
 
-    <table class="table table-hover" >
+    <div class="table-responsive mt-3">
+        <table class="table table-hover">
 
-        <thead>
+            <thead>
+                <tr>
+                    <th> Capa </th>
+                    <th> Título </th>
+                    <th> Autor </th>
+                    <th> Genero </th>
+                    <th> Quantidade Em Estoque </th>
+                    <th> Data de Cadastro </th>
+                    <th> Ações Disponíveis </th>
+                </tr>
+            </thead>
 
-            <tr>
-
-                <th> Capa </th>
-                <th> Título </th>
-                <th> Autor </th>
-                <th> Genero </th>
-                <th> Quantidade Em Estoque </th>
-                <th> Data de Cadastro </th>
-                <th> Ações Disponíveis </th>
-
-            </tr>
-
-        </thead>
-
-        <tbody>
-
-            @if (Model?.Any() == true)
-            {
-                
-                @foreach (var livro in Model)
+            <tbody>
+                @if (Model?.Any() == true)
                 {
-
-                    <tr>
-
-                        <td>
-                            <img src="imagem/@livro.Capa" style="width:50px; height:50px" />
-                        </td>
-                        <td> <i class="bi bi-people"></i> @livro.Titulo </td>
-                        <td> @livro.Autor </td>
-                        <td> @livro.Genero </td>
-                        <td> <i class="bi bi-envelope-at"></i> @livro.QuantidadeEmEstoque </td>
-                        <td> <i class="bi bi-calendar-date"></i> @livro.DataDeCadastro.ToString("dd/MM/yyyy") </td>
-                        <td class="d-flex gap-2" >
-                            <a class="btn btn-warning flex-fill"> <i class="bi bi-file-earmark-zip"></i> Detalhes </a>
-                            <a class="btn btn-primary flex-fill"> <i class="bi bi-pencil"></i> Editar </a>
-                        </td>
-
-                    </tr>
-
+                    @foreach (var livro in Model)
+                    {
+                        <tr>
+                            <td>
+                                <img src="imagem/@livro.Capa" class="img-fluid" style="width:50px; height:50px; object-fit: cover;" />
+                            </td>
+                            <td> <i class="bi bi-people"></i> @livro.Titulo </td>
+                            <td> @livro.Autor </td>
+                            <td> @livro.Genero </td>
+                            <td> <i class="bi bi-envelope-at"></i> @livro.QuantidadeEmEstoque </td>
+                            <td> <i class="bi bi-calendar-date"></i> @livro.DataDeCadastro.ToString("dd/MM/yyyy") </td>
+                            <td class="d-flex flex-column flex-md-row gap-2">
+                                <a class="btn btn-warning flex-fill"> <i class="bi bi-file-earmark-zip"></i> Detalhes </a>
+                                <a class="btn btn-primary flex-fill"> <i class="bi bi-pencil"></i> Editar </a>
+                            </td>
+                        </tr>
+                    }
                 }
+                else
+                {
+                    <tr>
+                        <td colspan="7" class="text-center"> Nenhum livro registrado ainda, patrão 😢 </td>
+                    </tr>
+                }
+            </tbody>
 
-            }
-            else
-            {
-                <tr> <td colspan="6" class="text-center" > Nenhum livro registrado ainda, patrão 😢 </td> </tr>
-            }
-
-        </tbody>
-
-    </table>
+        </table>
+    </div>
 
 </div>

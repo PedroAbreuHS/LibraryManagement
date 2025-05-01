@@ -2,49 +2,83 @@
     ViewData["Title"] = "Biblioteca Digital";
 }
 
+<style>
+    html, body {
+        height: 100%;
+    }
 
-<div class="container mt-5">
+    .wrapper {
+        display: flex;
+        flex-direction: column;
+        min-height: 100vh;
+    }
 
-    <div class="text-center mb-5">
-        <h1 class="display-4 fw-bold">📚 Bem-vindo à Biblioteca Digital</h1>
-        <p class="lead text-muted">Gerencie seus livros, empréstimos e leitores com facilidade e agilidade.</p>
-    </div>
+    main {
+        flex: 1;
+    }
+</style>
 
-    <div class="row g-4">
+<div class="wrapper">
 
-        <div class="col-md-4">
-            <div class="card shadow-sm h-100 border-0">
-                <div class="card-body text-center">
-                    <i class="bi bi-book display-4 text-primary"></i>
-                    <h5 class="card-title mt-3">Gerenciar Livros</h5>
-                    <p class="card-text text-muted">Adicione, edite ou remova livros do acervo com apenas alguns cliques.</p>
-                    <a href="/Livro" class="btn btn-primary mt-2">Ver Livros</a>
+    <header class="bg-transparent py-5">
+        <div class="container text-center">
+            <h1 class="display-4 fw-bold">📚 Bem-vindo à Biblioteca Digital</h1>
+            <p class="lead text-muted">Gerencie seus livros, empréstimos e leitores com facilidade e agilidade.</p>
+        </div>
+    </header>
+
+    <main>
+        <div class="container my-5">
+            <div class="row g-4">
+
+                <div class="col-12 col-md-4">
+                    <div class="card shadow-sm h-100 border-0">
+                        <div class="card-body text-center">
+                            <i class="bi bi-book display-4 text-primary"></i>
+                            <h5 class="card-title mt-3">Gerenciar Livros</h5>
+                            <p class="card-text text-muted">Adicione, edite ou remova livros do acervo com apenas alguns cliques.</p>
+                            <a href="/Livro" class="btn btn-primary mt-2">Ver Livros</a>
+                        </div>
+                    </div>
                 </div>
+
+                <div class="col-12 col-md-4">
+                    <div class="card shadow-sm h-100 border-0">
+                        <div class="card-body text-center">
+                            <i class="bi bi-people-fill display-4 text-success"></i>
+                            <h5 class="card-title mt-3">Gerenciar Usuários</h5>
+                            <p class="card-text text-muted">Controle quem pode emprestar livros e acompanhe históricos de leitura.</p>
+                            <a href="/Usuario" class="btn btn-success mt-2">Ver Usuários</a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-12 col-md-4">
+                    <div class="card shadow-sm h-100 border-0">
+                        <div class="card-body text-center">
+                            <i class="bi bi-journal-check display-4 text-warning"></i>
+                            <h5 class="card-title mt-3">Empréstimos</h5>
+                            <p class="card-text text-muted">Gerencie o empréstimo e devolução de livros com notificações automatizadas.</p>
+                            <a href="/Emprestimos" class="btn btn-warning mt-2">Ver Empréstimos</a>
+                        </div>
+                    </div>
+                </div>
+
             </div>
         </div>
+    </main>
 
-        <div class="col-md-4">
-            <div class="card shadow-sm h-100 border-0">
-                <div class="card-body text-center">
-                    <i class="bi bi-people-fill display-4 text-success"></i>
-                    <h5 class="card-title mt-3">Gerenciar Usuários</h5>
-                    <p class="card-text text-muted">Controle quem pode emprestar livros e acompanhe históricos de leitura.</p>
-                    <a href="/Usuario" class="btn btn-success mt-2">Ver Usuários</a>
-                </div>
-            </div>
+    <footer class="border-top footer text-muted py-3 mt-auto">
+        <div class="container d-flex flex-column flex-md-row justify-content-between align-items-center text-center text-md-start gap-2">
+            <span>
+                &copy; 2025 - Biblioteca: Gerenciador de Livros -
+                <a asp-area="" asp-controller="Home" asp-action="">Aplicação Criada Por Pedro Abreu</a>
+                |
+                <a href="https://www.linkedin.com/in/pedro-sousa-abreu/" target="_blank" class="ms-2 text-decoration-none">
+                    <i class="bi bi-linkedin me-1"></i> LinkedIn
+                </a>
+            </span>
         </div>
-
-        <div class="col-md-4">
-            <div class="card shadow-sm h-100 border-0">
-                <div class="card-body text-center">
-                    <i class="bi bi-journal-check display-4 text-warning"></i>
-                    <h5 class="card-title mt-3">Empréstimos</h5>
-                    <p class="card-text text-muted">Gerencie o empréstimo e devolução de livros com notificações automatizadas.</p>
-                    <a href="/Emprestimos" class="btn btn-warning mt-2">Ver Empréstimos</a>
-                </div>
-            </div>
-        </div>
-
-    </div>
+    </footer>
 
 </div>

@@ -1,28 +1,7 @@
 {
   "Version": 1,
   "WorkspaceRootPath": "C:\\ProjetosAvulsosDotNet\\LibraryManagement\\",
-  "Documents": [
-    {
-      "AbsoluteMoniker": "D:0:0:{119C487B-4C4D-41E5-9533-2E26994F0BF2}|LibraryManagement.csproj|c:\\projetosavulsosdotnet\\librarymanagement\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{119C487B-4C4D-41E5-9533-2E26994F0BF2}|LibraryManagement.csproj|solutionrelative:views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{119C487B-4C4D-41E5-9533-2E26994F0BF2}|LibraryManagement.csproj|c:\\projetosavulsosdotnet\\librarymanagement\\views\\livro\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{119C487B-4C4D-41E5-9533-2E26994F0BF2}|LibraryManagement.csproj|solutionrelative:views\\livro\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{119C487B-4C4D-41E5-9533-2E26994F0BF2}|LibraryManagement.csproj|c:\\projetosavulsosdotnet\\librarymanagement\\controllers\\livrocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{119C487B-4C4D-41E5-9533-2E26994F0BF2}|LibraryManagement.csproj|solutionrelative:controllers\\livrocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{119C487B-4C4D-41E5-9533-2E26994F0BF2}|LibraryManagement.csproj|c:\\projetosavulsosdotnet\\librarymanagement\\services\\livroservices\\livroservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{119C487B-4C4D-41E5-9533-2E26994F0BF2}|LibraryManagement.csproj|solutionrelative:services\\livroservices\\livroservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{119C487B-4C4D-41E5-9533-2E26994F0BF2}|LibraryManagement.csproj|c:\\projetosavulsosdotnet\\librarymanagement\\repositories\\ilivrorepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{119C487B-4C4D-41E5-9533-2E26994F0BF2}|LibraryManagement.csproj|solutionrelative:repositories\\ilivrorepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    }
-  ],
+  "Documents": [],
   "DocumentGroupContainers": [
     {
       "Orientation": 0,
@@ -30,7 +9,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 2,
+          "SelectedChildIndex": -1,
           "Children": [
             {
               "$type": "Bookmark",
@@ -39,71 +18,6 @@
             {
               "$type": "Bookmark",
               "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "Index.cshtml",
-              "DocumentMoniker": "C:\\ProjetosAvulsosDotNet\\LibraryManagement\\Views\\Home\\Index.cshtml",
-              "RelativeDocumentMoniker": "Views\\Home\\Index.cshtml",
-              "ToolTip": "C:\\ProjetosAvulsosDotNet\\LibraryManagement\\Views\\Home\\Index.cshtml",
-              "RelativeToolTip": "Views\\Home\\Index.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAzAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-05-01T14:40:25.257Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "ILivroRepository.cs",
-              "DocumentMoniker": "C:\\ProjetosAvulsosDotNet\\LibraryManagement\\Repositories\\ILivroRepository.cs",
-              "RelativeDocumentMoniker": "Repositories\\ILivroRepository.cs",
-              "ToolTip": "C:\\ProjetosAvulsosDotNet\\LibraryManagement\\Repositories\\ILivroRepository.cs",
-              "RelativeToolTip": "Repositories\\ILivroRepository.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-01T13:32:27.479Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "LivroService.cs",
-              "DocumentMoniker": "C:\\ProjetosAvulsosDotNet\\LibraryManagement\\Services\\LivroServices\\LivroService.cs",
-              "RelativeDocumentMoniker": "Services\\LivroServices\\LivroService.cs",
-              "ToolTip": "C:\\ProjetosAvulsosDotNet\\LibraryManagement\\Services\\LivroServices\\LivroService.cs",
-              "RelativeToolTip": "Services\\LivroServices\\LivroService.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABkAAAAjAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-01T13:32:36.683Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "LivroController.cs",
-              "DocumentMoniker": "C:\\ProjetosAvulsosDotNet\\LibraryManagement\\Controllers\\LivroController.cs",
-              "RelativeDocumentMoniker": "Controllers\\LivroController.cs",
-              "ToolTip": "C:\\ProjetosAvulsosDotNet\\LibraryManagement\\Controllers\\LivroController.cs",
-              "RelativeToolTip": "Controllers\\LivroController.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABcAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-01T13:28:47.233Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "Index.cshtml",
-              "DocumentMoniker": "C:\\ProjetosAvulsosDotNet\\LibraryManagement\\Views\\Livro\\Index.cshtml",
-              "RelativeDocumentMoniker": "Views\\Livro\\Index.cshtml",
-              "ToolTip": "C:\\ProjetosAvulsosDotNet\\LibraryManagement\\Views\\Livro\\Index.cshtml",
-              "RelativeToolTip": "Views\\Livro\\Index.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABkAAAAfAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-05-01T12:50:33.475Z",
-              "EditorCaption": ""
             }
           ]
         }

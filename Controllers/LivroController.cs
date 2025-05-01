@@ -19,5 +19,10 @@ namespace LibraryManagement.Controllers
             var livros = await _livroRepository.BuscarLivros();
             return View(livros);
         }
+
+        public ActionResult Cadastrar()
+        {
+            return View();
+        }
     }
 }

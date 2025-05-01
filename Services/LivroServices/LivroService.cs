@@ -32,5 +32,7 @@ namespace LibraryManagement.Services.LivroServices
                 throw new ApplicationException("Erro inesperado ao buscar livros.", ex);
             }
         }
+
+
     }
 }
