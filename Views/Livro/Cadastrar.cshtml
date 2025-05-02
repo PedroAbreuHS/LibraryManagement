@@ -5,7 +5,7 @@
 
     <h2> <i class="bi bi-book display-4 text-primary me-3"></i> Cadastro de Livros: Preencha as Informações </h2>
 
-    <form action="/" method="post" enctype="multipart/form-data">
+    <form method="post" enctype="multipart/form-data" asp-action="Cadastrar" asp-controller="Livro" >
 
         <div class="text-center my-4">
             <label for="ImageFile">
@@ -15,8 +15,7 @@
 
         <div class="mb-3">
             <label class="form-label"> Capa do Livro: </label>
-            <input id="ImageFile" type="file" name="foto" class="form-control shadow-none" asp-for="Capa" />
-            <span asp-validation-for="Capa" class="text-danger"></span>
+            <input id="ImageFile" type="file" name="foto" class="form-control shadow-none" />            
         </div>
 
         <div class="mb-3">

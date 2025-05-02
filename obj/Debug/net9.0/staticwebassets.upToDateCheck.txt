@@ -64,6 +64,7 @@ C:\ProjetosAvulsosDotNet\LibraryManagement\wwwroot\lib\bootstrap\dist\css\bootst
 wwwroot\css\site.css
 wwwroot\css\vapor.css
 wwwroot\favicon.ico
+wwwroot\Imagem\images.jpeg15f147b9-1929-4f95-9dd0-cf9c5123a838123456789asdg.PNG
 wwwroot\js\site.js
 wwwroot\lib\bootstrap\dist\css\bootstrap.css
 wwwroot\lib\bootstrap\dist\css\bootstrap.css.map

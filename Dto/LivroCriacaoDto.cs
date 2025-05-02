@@ -8,10 +8,7 @@ namespace LibraryManagement.Dto
         public string Titulo { get; set; } = string.Empty;
 
         [Required(ErrorMessage = "Insira uma descrição!")]
-        public string Descricao { get; set; } = string.Empty;
-
-        [Required(ErrorMessage = "Insira uma imagem para capa!")]
-        public string Capa { get; set; } = string.Empty;
+        public string Descricao { get; set; } = string.Empty;        
 
         [Required(ErrorMessage = "Insira um código ISBN!")]
         public string ISBN { get; set; } = string.Empty;

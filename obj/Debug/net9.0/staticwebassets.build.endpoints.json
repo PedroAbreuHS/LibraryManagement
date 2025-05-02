@@ -3,6 +3,88 @@
   "ManifestType": "Build",
   "Endpoints": [
     {
+      "Route": "Imagem/images.jpeg15f147b9-1929-4f95-9dd0-cf9c5123a838123456789asdg.4f8k8hmuxt.PNG",
+      "AssetFile": "Imagem/images.jpeg15f147b9-1929-4f95-9dd0-cf9c5123a838123456789asdg.PNG",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "8052"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"YMyzRE9TW1TEcgNp40Siizo3XMsDNEThsd4qcIjvlCk=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 02 May 2025 12:15:36 GMT"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "4f8k8hmuxt"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-YMyzRE9TW1TEcgNp40Siizo3XMsDNEThsd4qcIjvlCk="
+        },
+        {
+          "Name": "label",
+          "Value": "Imagem/images.jpeg15f147b9-1929-4f95-9dd0-cf9c5123a838123456789asdg.PNG"
+        }
+      ]
+    },
+    {
+      "Route": "Imagem/images.jpeg15f147b9-1929-4f95-9dd0-cf9c5123a838123456789asdg.PNG",
+      "AssetFile": "Imagem/images.jpeg15f147b9-1929-4f95-9dd0-cf9c5123a838123456789asdg.PNG",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "8052"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"YMyzRE9TW1TEcgNp40Siizo3XMsDNEThsd4qcIjvlCk=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 02 May 2025 12:15:36 GMT"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-YMyzRE9TW1TEcgNp40Siizo3XMsDNEThsd4qcIjvlCk="
+        }
+      ]
+    },
+    {
       "Route": "LibraryManagement.8n94xyxowb.styles.css",
       "AssetFile": "LibraryManagement.styles.css.gz",
       "Selectors": [
