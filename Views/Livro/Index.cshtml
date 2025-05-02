@@ -1,6 +1,20 @@
 ﻿@using LibraryManagement.Models
 @model IEnumerable<LivroModel>
 
+@if (TempData["MensagemSucesso"] != null)
+{
+    <div class="alert alert-success text-bg-dark" role="alert">
+        @TempData["MensagemSucesso"]
+    </div>
+}
+
+@if (TempData["MensagemErro"] != null)
+{
+    <div class="alert alert-danger text-bg-dark" role="alert">
+        @TempData["MensagemErro"]
+    </div>
+}
+
 <div class="container mt-5">
 
     <div class="mb-3">
@@ -19,7 +33,7 @@
     </div>
 
     <div class="table-responsive mt-3">
-        <table class="table table-hover">
+        <table id="livros" class="table table-hover">
 
             <thead>
                 <tr>
@@ -40,7 +54,7 @@
                     {
                         <tr>
                             <td>
-                                <img src="imagem/@livro.Capa" class="img-fluid" style="width:50px; height:50px; object-fit: cover; border-radius:8px; box-shadow: 0 0 10px rgba(0, 123, 255, 0.5);" />
+                                <img src="imagem/@livro.Capa" class="img-fluid" style="width:75px; height:75px; object-fit: cover; border-radius:8px; box-shadow: 0 0 10px rgba(0, 123, 255, 0.5);" />
                             </td>
                             <td> <i class="bi bi-people"></i> @livro.Titulo </td>
                             <td> @livro.Autor </td>
@@ -48,7 +62,7 @@
                             <td> <i class="bi bi-envelope-at"></i> @livro.QuantidadeEmEstoque </td>
                             <td> <i class="bi bi-calendar-date"></i> @livro.DataDeCadastro.ToString("dd/MM/yyyy") </td>
                             <td class="d-flex flex-column flex-md-row gap-2">
-                                <a class="btn btn-warning flex-fill"> <i class="bi bi-file-earmark-zip"></i> Detalhes </a>
+                                <a class="btn btn-warning flex-fill" asp-action="Detalhes" asp-controller="Livro" asp-route-id="@livro.Id" > <i class="bi bi-file-earmark-zip"></i> Detalhes </a>
                                 <a class="btn btn-primary flex-fill"> <i class="bi bi-pencil"></i> Editar </a>
                             </td>
                         </tr>

@@ -1,0 +1,67 @@
+﻿@using LibraryManagement.Models
+@model LivroModel
+
+
+<div class="container mt-5">
+
+    <h2> <i class="bi bi-journal-bookmark display-4 text-primary me-3"></i> Detalhes do Livro - @Model.Titulo</h2>
+
+    <div class="text-center">
+
+        <img src="/Imagem/@Model.Capa" style="width:150px; height:200px; border-radius: 12px;" />
+
+    </div>
+
+    <div class="mb-3">
+        <label class="form-label"> Título do Livro: </label>
+        <input type="text" class="form-control shadow-none" asp-for="Titulo" disabled/>        
+    </div>
+
+    <div class="mb-3">
+        <label class="form-label"> Autor do Livro: </label>
+        <input type="text" class="form-control shadow-none" asp-for="Autor" disabled/>        
+    </div>
+
+    <div class="mb-3">
+        <label class="form-label"> Descricao do Livro: </label>
+        <textarea asp-for="Descricao" class="form-control shadow-none" disabled></textarea>        
+    </div>
+
+    <div class="col-12" >
+        <label class="form-label"> Ano Publicação do Livro: </label>
+        <input type="datetime" class="form-control shadow-none" asp-for="AnoPublicacao" disabled/>
+    </div>
+
+    <div class="col-12" >
+        <label class="form-label"> Genero do Livro: </label>
+        <input type="text" class="form-control shadow-none" asp-for="Genero" disabled/>
+    </div>
+
+    <div class="col-12">
+        <label class="form-label"> Quantidade em Estoque do Livro: </label>
+        <input type="number" min="1" class="form-control shadow-none" asp-for="QuantidadeEmEstoque" disabled/>
+    </div>
+
+    <div class="col-12">
+        <label class="form-label"> ISBN do Livro: </label>
+        <input type="text" class="form-control shadow-none" asp-for="ISBN" disabled/>
+    </div>
+
+    <div class="col-12">
+        <label class="form-label"> Data de Cadastro: </label>
+        <input type="date" class="form-control shadow-none" asp-for="DataDeCadastro" disabled />
+    </div>
+
+    <div class="col-12">
+        <label class="form-label"> Data de Alteração: </label>
+        <input type="date" class="form-control shadow-none" asp-for="DataDeAlteracao" disabled />
+    </div>
+
+    <div class="btn-box d-flex mt-3" >
+
+        <a type="submit" class="btn btn-info w-100" asp-action="Index" asp-controller="Livro" > <i class="bi bi-arrow-left-circle" ></i>  Voltar </a>
+
+    </div>
+
+
+</div>

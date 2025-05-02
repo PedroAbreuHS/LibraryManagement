@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "rYUGvDi+MWULOH/j1AFDs/QSDWMFsAeXQR/E1RToiNY=",
+  "Hash": "ufOQrPVtbcTc7SaaNoM4ZjikdNB8reVMVGm3r+N0BPs=",
   "Source": "LibraryManagement",
   "BasePath": "_content/LibraryManagement",
   "Mode": "Default",
@@ -164,12 +164,12 @@
       "OriginalItemSpec": "C:\\ProjetosAvulsosDotNet\\LibraryManagement\\obj\\Debug\\net9.0\\scopedcss\\bundle\\LibraryManagement.styles.css"
     },
     {
-      "Identity": "C:\\ProjetosAvulsosDotNet\\LibraryManagement\\obj\\Debug\\net9.0\\compressed\\4bxeljtew8-xtxxf3hu2r.gz",
+      "Identity": "C:\\ProjetosAvulsosDotNet\\LibraryManagement\\obj\\Debug\\net9.0\\compressed\\4bxeljtew8-9tmbobko8c.gz",
       "SourceId": "LibraryManagement",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\ProjetosAvulsosDotNet\\LibraryManagement\\obj\\Debug\\net9.0\\compressed\\",
       "BasePath": "_content/LibraryManagement",
-      "RelativePath": "js/site#[.{fingerprint=xtxxf3hu2r}]?.js.gz",
+      "RelativePath": "js/site#[.{fingerprint=9tmbobko8c}]?.js.gz",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Alternative",
@@ -178,8 +178,8 @@
       "RelatedAsset": "C:\\ProjetosAvulsosDotNet\\LibraryManagement\\wwwroot\\js\\site.js",
       "AssetTraitName": "Content-Encoding",
       "AssetTraitValue": "gzip",
-      "Fingerprint": "fpxp8wntf7",
-      "Integrity": "465WqepNnI4ENLgQJFXrL2gtI20GCfeLK3JAtugOzpA=",
+      "Fingerprint": "u9c06bx63v",
+      "Integrity": "IqCEL4HGABcJACEIgWB8knCLmagMj6M9YZfgaByXjRc=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "C:\\ProjetosAvulsosDotNet\\LibraryManagement\\wwwroot\\js\\site.js"
@@ -1487,6 +1487,48 @@
       "OriginalItemSpec": "wwwroot\\favicon.ico"
     },
     {
+      "Identity": "C:\\ProjetosAvulsosDotNet\\LibraryManagement\\wwwroot\\Imagem\\amigoimaginario.jpeg0a52caac-5e7c-470b-96c0-561eb259460f321456987654.PNG",
+      "SourceId": "LibraryManagement",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\ProjetosAvulsosDotNet\\LibraryManagement\\wwwroot\\",
+      "BasePath": "_content/LibraryManagement",
+      "RelativePath": "Imagem/amigoimaginario.jpeg0a52caac-5e7c-470b-96c0-561eb259460f321456987654#[.{fingerprint}]?.PNG",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "hdicrrft6m",
+      "Integrity": "+6D2YevKbMCP3cowp9L2uTzCfY5ZuJKosOVg3ytio68=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\Imagem\\amigoimaginario.jpeg0a52caac-5e7c-470b-96c0-561eb259460f321456987654.PNG"
+    },
+    {
+      "Identity": "C:\\ProjetosAvulsosDotNet\\LibraryManagement\\wwwroot\\Imagem\\homemdegiz.png.webpaa429ea1-fa39-46c4-8b75-4b57a0c3ddee123654789fdsa.PNG",
+      "SourceId": "LibraryManagement",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\ProjetosAvulsosDotNet\\LibraryManagement\\wwwroot\\",
+      "BasePath": "_content/LibraryManagement",
+      "RelativePath": "Imagem/homemdegiz.png.webpaa429ea1-fa39-46c4-8b75-4b57a0c3ddee123654789fdsa#[.{fingerprint}]?.PNG",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "2a4at9qz8w",
+      "Integrity": "KpXgCIpQfnoH3Z6D4LBVfDeNMVsKgRuc/Iw36F4gHRI=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\Imagem\\homemdegiz.png.webpaa429ea1-fa39-46c4-8b75-4b57a0c3ddee123654789fdsa.PNG"
+    },
+    {
       "Identity": "C:\\ProjetosAvulsosDotNet\\LibraryManagement\\wwwroot\\Imagem\\images.jpeg15f147b9-1929-4f95-9dd0-cf9c5123a838123456789asdg.PNG",
       "SourceId": "LibraryManagement",
       "SourceType": "Discovered",
@@ -1522,8 +1564,8 @@
       "RelatedAsset": "",
       "AssetTraitName": "",
       "AssetTraitValue": "",
-      "Fingerprint": "xtxxf3hu2r",
-      "Integrity": "hRQyftXiu1lLX2P9Ly9xa4gHJgLeR1uGN5qegUobtGo=",
+      "Fingerprint": "9tmbobko8c",
+      "Integrity": "PawPxZ536ydjKEKTjTt9XgIfE0lD9AXsiH3cpAstVm4=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\js\\site.js"
@@ -3685,6 +3727,170 @@
       ]
     },
     {
+      "Route": "Imagem/amigoimaginario.jpeg0a52caac-5e7c-470b-96c0-561eb259460f321456987654.hdicrrft6m.PNG",
+      "AssetFile": "C:\\ProjetosAvulsosDotNet\\LibraryManagement\\wwwroot\\Imagem\\amigoimaginario.jpeg0a52caac-5e7c-470b-96c0-561eb259460f321456987654.PNG",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "12043"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"+6D2YevKbMCP3cowp9L2uTzCfY5ZuJKosOVg3ytio68=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 02 May 2025 12:52:08 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "hdicrrft6m"
+        },
+        {
+          "Name": "label",
+          "Value": "Imagem/amigoimaginario.jpeg0a52caac-5e7c-470b-96c0-561eb259460f321456987654.PNG"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-+6D2YevKbMCP3cowp9L2uTzCfY5ZuJKosOVg3ytio68="
+        }
+      ]
+    },
+    {
+      "Route": "Imagem/amigoimaginario.jpeg0a52caac-5e7c-470b-96c0-561eb259460f321456987654.PNG",
+      "AssetFile": "C:\\ProjetosAvulsosDotNet\\LibraryManagement\\wwwroot\\Imagem\\amigoimaginario.jpeg0a52caac-5e7c-470b-96c0-561eb259460f321456987654.PNG",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "12043"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"+6D2YevKbMCP3cowp9L2uTzCfY5ZuJKosOVg3ytio68=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 02 May 2025 12:52:08 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-+6D2YevKbMCP3cowp9L2uTzCfY5ZuJKosOVg3ytio68="
+        }
+      ]
+    },
+    {
+      "Route": "Imagem/homemdegiz.png.webpaa429ea1-fa39-46c4-8b75-4b57a0c3ddee123654789fdsa.2a4at9qz8w.PNG",
+      "AssetFile": "C:\\ProjetosAvulsosDotNet\\LibraryManagement\\wwwroot\\Imagem\\homemdegiz.png.webpaa429ea1-fa39-46c4-8b75-4b57a0c3ddee123654789fdsa.PNG",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "43034"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"KpXgCIpQfnoH3Z6D4LBVfDeNMVsKgRuc/Iw36F4gHRI=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 02 May 2025 12:47:01 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "2a4at9qz8w"
+        },
+        {
+          "Name": "label",
+          "Value": "Imagem/homemdegiz.png.webpaa429ea1-fa39-46c4-8b75-4b57a0c3ddee123654789fdsa.PNG"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-KpXgCIpQfnoH3Z6D4LBVfDeNMVsKgRuc/Iw36F4gHRI="
+        }
+      ]
+    },
+    {
+      "Route": "Imagem/homemdegiz.png.webpaa429ea1-fa39-46c4-8b75-4b57a0c3ddee123654789fdsa.PNG",
+      "AssetFile": "C:\\ProjetosAvulsosDotNet\\LibraryManagement\\wwwroot\\Imagem\\homemdegiz.png.webpaa429ea1-fa39-46c4-8b75-4b57a0c3ddee123654789fdsa.PNG",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "43034"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"KpXgCIpQfnoH3Z6D4LBVfDeNMVsKgRuc/Iw36F4gHRI=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 02 May 2025 12:47:01 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-KpXgCIpQfnoH3Z6D4LBVfDeNMVsKgRuc/Iw36F4gHRI="
+        }
+      ]
+    },
+    {
       "Route": "Imagem/images.jpeg15f147b9-1929-4f95-9dd0-cf9c5123a838123456789asdg.4f8k8hmuxt.PNG",
       "AssetFile": "C:\\ProjetosAvulsosDotNet\\LibraryManagement\\wwwroot\\Imagem\\images.jpeg15f147b9-1929-4f95-9dd0-cf9c5123a838123456789asdg.PNG",
       "Selectors": [],
@@ -3767,13 +3973,13 @@
       ]
     },
     {
-      "Route": "js/site.js",
-      "AssetFile": "C:\\ProjetosAvulsosDotNet\\LibraryManagement\\obj\\Debug\\net9.0\\compressed\\4bxeljtew8-xtxxf3hu2r.gz",
+      "Route": "js/site.9tmbobko8c.js",
+      "AssetFile": "C:\\ProjetosAvulsosDotNet\\LibraryManagement\\obj\\Debug\\net9.0\\compressed\\4bxeljtew8-9tmbobko8c.gz",
       "Selectors": [
         {
           "Name": "Content-Encoding",
           "Value": "gzip",
-          "Quality": "0.005235602094"
+          "Quality": "0.001089324619"
         }
       ],
       "ResponseHeaders": [
@@ -3783,19 +3989,19 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "190"
+          "Value": "917"
         },
         {
           "Name": "ETag",
-          "Value": "\"465WqepNnI4ENLgQJFXrL2gtI20GCfeLK3JAtugOzpA=\""
+          "Value": "\"IqCEL4HGABcJACEIgWB8knCLmagMj6M9YZfgaByXjRc=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Thu, 01 May 2025 11:45:58 GMT"
+          "Value": "Fri, 02 May 2025 13:36:17 GMT"
         },
         {
           "Name": "Cache-Control",
-          "Value": "no-cache"
+          "Value": "max-age=31536000, immutable"
         },
         {
           "Name": "Content-Encoding",
@@ -3811,18 +4017,26 @@
         },
         {
           "Name": "ETag",
-          "Value": "W/\"hRQyftXiu1lLX2P9Ly9xa4gHJgLeR1uGN5qegUobtGo=\""
+          "Value": "W/\"PawPxZ536ydjKEKTjTt9XgIfE0lD9AXsiH3cpAstVm4=\""
         }
       ],
       "EndpointProperties": [
         {
+          "Name": "fingerprint",
+          "Value": "9tmbobko8c"
+        },
+        {
+          "Name": "label",
+          "Value": "js/site.js"
+        },
+        {
           "Name": "integrity",
-          "Value": "sha256-hRQyftXiu1lLX2P9Ly9xa4gHJgLeR1uGN5qegUobtGo="
+          "Value": "sha256-PawPxZ536ydjKEKTjTt9XgIfE0lD9AXsiH3cpAstVm4="
         }
       ]
     },
     {
-      "Route": "js/site.js",
+      "Route": "js/site.9tmbobko8c.js",
       "AssetFile": "C:\\ProjetosAvulsosDotNet\\LibraryManagement\\wwwroot\\js\\site.js",
       "Selectors": [],
       "ResponseHeaders": [
@@ -3832,7 +4046,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "231"
+          "Value": "2070"
         },
         {
           "Name": "Content-Type",
@@ -3840,121 +4054,21 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"hRQyftXiu1lLX2P9Ly9xa4gHJgLeR1uGN5qegUobtGo=\""
+          "Value": "\"PawPxZ536ydjKEKTjTt9XgIfE0lD9AXsiH3cpAstVm4=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Thu, 01 May 2025 11:45:58 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "no-cache"
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "integrity",
-          "Value": "sha256-hRQyftXiu1lLX2P9Ly9xa4gHJgLeR1uGN5qegUobtGo="
-        }
-      ]
-    },
-    {
-      "Route": "js/site.js.gz",
-      "AssetFile": "C:\\ProjetosAvulsosDotNet\\LibraryManagement\\obj\\Debug\\net9.0\\compressed\\4bxeljtew8-xtxxf3hu2r.gz",
-      "Selectors": [],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "190"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "text/javascript"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"465WqepNnI4ENLgQJFXrL2gtI20GCfeLK3JAtugOzpA=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Thu, 01 May 2025 11:45:58 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "no-cache"
-        },
-        {
-          "Name": "Content-Encoding",
-          "Value": "gzip"
-        },
-        {
-          "Name": "Vary",
-          "Value": "Content-Encoding"
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "integrity",
-          "Value": "sha256-465WqepNnI4ENLgQJFXrL2gtI20GCfeLK3JAtugOzpA="
-        }
-      ]
-    },
-    {
-      "Route": "js/site.xtxxf3hu2r.js",
-      "AssetFile": "C:\\ProjetosAvulsosDotNet\\LibraryManagement\\obj\\Debug\\net9.0\\compressed\\4bxeljtew8-xtxxf3hu2r.gz",
-      "Selectors": [
-        {
-          "Name": "Content-Encoding",
-          "Value": "gzip",
-          "Quality": "0.005235602094"
-        }
-      ],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "190"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"465WqepNnI4ENLgQJFXrL2gtI20GCfeLK3JAtugOzpA=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Thu, 01 May 2025 11:45:58 GMT"
+          "Value": "Fri, 02 May 2025 13:36:17 GMT"
         },
         {
           "Name": "Cache-Control",
           "Value": "max-age=31536000, immutable"
-        },
-        {
-          "Name": "Content-Encoding",
-          "Value": "gzip"
-        },
-        {
-          "Name": "Vary",
-          "Value": "Content-Encoding"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "text/javascript"
-        },
-        {
-          "Name": "ETag",
-          "Value": "W/\"hRQyftXiu1lLX2P9Ly9xa4gHJgLeR1uGN5qegUobtGo=\""
         }
       ],
       "EndpointProperties": [
         {
           "Name": "fingerprint",
-          "Value": "xtxxf3hu2r"
+          "Value": "9tmbobko8c"
         },
         {
           "Name": "label",
@@ -3962,13 +4076,13 @@
         },
         {
           "Name": "integrity",
-          "Value": "sha256-hRQyftXiu1lLX2P9Ly9xa4gHJgLeR1uGN5qegUobtGo="
+          "Value": "sha256-PawPxZ536ydjKEKTjTt9XgIfE0lD9AXsiH3cpAstVm4="
         }
       ]
     },
     {
-      "Route": "js/site.xtxxf3hu2r.js",
-      "AssetFile": "C:\\ProjetosAvulsosDotNet\\LibraryManagement\\wwwroot\\js\\site.js",
+      "Route": "js/site.9tmbobko8c.js.gz",
+      "AssetFile": "C:\\ProjetosAvulsosDotNet\\LibraryManagement\\obj\\Debug\\net9.0\\compressed\\4bxeljtew8-9tmbobko8c.gz",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -3977,7 +4091,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "231"
+          "Value": "917"
         },
         {
           "Name": "Content-Type",
@@ -3985,56 +4099,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"hRQyftXiu1lLX2P9Ly9xa4gHJgLeR1uGN5qegUobtGo=\""
+          "Value": "\"IqCEL4HGABcJACEIgWB8knCLmagMj6M9YZfgaByXjRc=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Thu, 01 May 2025 11:45:58 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "max-age=31536000, immutable"
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "fingerprint",
-          "Value": "xtxxf3hu2r"
-        },
-        {
-          "Name": "label",
-          "Value": "js/site.js"
-        },
-        {
-          "Name": "integrity",
-          "Value": "sha256-hRQyftXiu1lLX2P9Ly9xa4gHJgLeR1uGN5qegUobtGo="
-        }
-      ]
-    },
-    {
-      "Route": "js/site.xtxxf3hu2r.js.gz",
-      "AssetFile": "C:\\ProjetosAvulsosDotNet\\LibraryManagement\\obj\\Debug\\net9.0\\compressed\\4bxeljtew8-xtxxf3hu2r.gz",
-      "Selectors": [],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "190"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "text/javascript"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"465WqepNnI4ENLgQJFXrL2gtI20GCfeLK3JAtugOzpA=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Thu, 01 May 2025 11:45:58 GMT"
+          "Value": "Fri, 02 May 2025 13:36:17 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -4052,7 +4121,7 @@
       "EndpointProperties": [
         {
           "Name": "fingerprint",
-          "Value": "xtxxf3hu2r"
+          "Value": "9tmbobko8c"
         },
         {
           "Name": "label",
@@ -4060,7 +4129,144 @@
         },
         {
           "Name": "integrity",
-          "Value": "sha256-465WqepNnI4ENLgQJFXrL2gtI20GCfeLK3JAtugOzpA="
+          "Value": "sha256-IqCEL4HGABcJACEIgWB8knCLmagMj6M9YZfgaByXjRc="
+        }
+      ]
+    },
+    {
+      "Route": "js/site.js",
+      "AssetFile": "C:\\ProjetosAvulsosDotNet\\LibraryManagement\\obj\\Debug\\net9.0\\compressed\\4bxeljtew8-9tmbobko8c.gz",
+      "Selectors": [
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip",
+          "Quality": "0.001089324619"
+        }
+      ],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "917"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"IqCEL4HGABcJACEIgWB8knCLmagMj6M9YZfgaByXjRc=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 02 May 2025 13:36:17 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "W/\"PawPxZ536ydjKEKTjTt9XgIfE0lD9AXsiH3cpAstVm4=\""
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-PawPxZ536ydjKEKTjTt9XgIfE0lD9AXsiH3cpAstVm4="
+        }
+      ]
+    },
+    {
+      "Route": "js/site.js",
+      "AssetFile": "C:\\ProjetosAvulsosDotNet\\LibraryManagement\\wwwroot\\js\\site.js",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "2070"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"PawPxZ536ydjKEKTjTt9XgIfE0lD9AXsiH3cpAstVm4=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 02 May 2025 13:36:17 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-PawPxZ536ydjKEKTjTt9XgIfE0lD9AXsiH3cpAstVm4="
+        }
+      ]
+    },
+    {
+      "Route": "js/site.js.gz",
+      "AssetFile": "C:\\ProjetosAvulsosDotNet\\LibraryManagement\\obj\\Debug\\net9.0\\compressed\\4bxeljtew8-9tmbobko8c.gz",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "917"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"IqCEL4HGABcJACEIgWB8knCLmagMj6M9YZfgaByXjRc=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 02 May 2025 13:36:17 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-IqCEL4HGABcJACEIgWB8knCLmagMj6M9YZfgaByXjRc="
         }
       ]
     },

@@ -8,6 +8,7 @@ namespace LibraryManagement.Repositories
        Task<List<LivroModel>> BuscarLivros();
        Task<LivroModel> Cadastrar(LivroCriacaoDto livroCriacaoDto, IFormFile foto);
        bool VerificaSeJaExisteCadastro(LivroCriacaoDto livroCriacaoDto);
+       Task<LivroModel> BuscarLivroPorId(int? id);
 
     }
 }

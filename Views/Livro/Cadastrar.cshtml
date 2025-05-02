@@ -1,6 +1,20 @@
 ﻿@using LibraryManagement.Dto
 @model LivroCriacaoDto
 
+@if (TempData["MensagemSucesso"] != null)
+{
+    <div class="alert alert-success text-bg-dark" role="alert">
+        @TempData["MensagemSucesso"]
+    </div>
+}
+
+@if (TempData["MensagemErro"] != null)
+{
+    <div class="alert alert-danger text-bg-dark" role="alert">
+        @TempData["MensagemErro"]
+    </div>
+}
+
 <div class="container mt-5">
 
     <h2> <i class="bi bi-book display-4 text-primary me-3"></i> Cadastro de Livros: Preencha as Informações </h2>

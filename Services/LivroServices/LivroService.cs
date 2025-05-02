@@ -18,6 +18,12 @@ namespace LibraryManagement.Services.LivroServices
             _nomeServidor = sistema.WebRootPath;
         }
 
+        public async Task<LivroModel> BuscarLivroPorId(int? id)
+        {
+            var livroBanco = await _context.Livros.FirstOrDefaultAsync(x => x.Id == id);
+            return livroBanco;
+        }
+
         public async Task<List<LivroModel>> BuscarLivros()
         {
             try
