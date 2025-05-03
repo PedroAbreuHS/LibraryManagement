@@ -14,5 +14,7 @@ namespace LibraryManagement.Data
         }
 
         public DbSet<LivroModel> Livros { get; set; }
+        public DbSet<UsuarioModel> Usuarios { get; set; }
+        public DbSet<EnderecoModel> Enderecos { get; set; }
     }
 }

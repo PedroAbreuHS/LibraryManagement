@@ -1,0 +1,90 @@
+﻿@using LibraryManagement.Models
+@model IEnumerable<UsuarioModel>
+
+@if (TempData["MensagemSucesso"] != null)
+{
+    <div class="alert alert-success text-bg-dark" role="alert">
+        @TempData["MensagemSucesso"]
+    </div>
+}
+
+@if (TempData["MensagemErro"] != null)
+{
+    <div class="alert alert-danger text-bg-dark" role="alert">
+        @TempData["MensagemErro"]
+    </div>
+}
+
+<div class="container mt-5" >
+
+    <div class="mb-3">
+        <a href="/" class="btn btn-outline-secondary shadow-sm">
+            <i class="bi bi-arrow-left-circle-fill me-2"></i> Voltar para a Home
+        </a>
+    </div>
+
+    <div class="d-flex justify-content-between align-items-center" >
+
+        <h2> <i class="bi bi-person-fill display-4 text-primary me-3"></i> Cadastro de Clientes </h2>
+        <a asp-controller="Usuario" asp-action="Cadastrar" asp-route-id="0" class="btn-success btn" > <i class="bi bi-plus-circle" ></i> Cadastrar Cliente </a>
+
+    </div>
+
+    <table class="table table-hover" id="registros" >
+
+        <thead>
+            <tr>
+                <th></th>
+                <th> Usuário </th>
+                <th> Nome </th>
+                <th> Estado </th>
+                <th> E-mail </th>
+                <th> Data de Criação </th>
+                <th></th>
+            </tr>
+        </thead>
+        <tbody>
+
+            @if (Model?.Any() == true)
+            {
+                @foreach (var usuario in Model)
+                {
+                    <tr>
+
+                        <td class="text-center">
+                            @if (usuario.Situacao)
+                            {
+                                <i class="bi bi-check-circle-fill text-success" title="Ativo"></i>
+                            }
+                            else
+                            {
+                                <i class="bi bi-x-circle-fill text-danger" title="Inativo"></i>
+                            }
+                        </td>
+                        <td> @usuario.Usuario </td>
+                        <td> @usuario.NomeCompleto </td>
+                        <td> @usuario.Endereco.Estado </td>
+                        <td> <i class="bi bi-envelope-at"></i> @usuario.Email </td>
+                        <td> @usuario.DataCadastro.ToString("dd-MM-yyyy") </td>
+                        <td class="d-flex flex-column flex-md-row gap-2">
+
+                            <a class="btn btn-warning flex-fill" asp-action="Detalhes" asp-controller="Usuario" asp-route-id="@usuario.Id"> <i class="bi bi-file-earmark-zip"></i> Detalhes </a>
+                            <a class="btn btn-primary flex-fill" asp-action="Editar" asp-controller="Usuario" asp-route-id="@usuario.Id"> <i class="bi bi-pencil"></i> Editar </a>
+                        
+                        </td>
+
+                    </tr>
+                }
+            }
+            else
+            {
+                <tr>
+                    <td colspan="7" class="text-center"> Nenhum Usuário registrado ainda, patrão 😢 </td>
+                </tr>                
+            }
+
+        </tbody>
+
+    </table>
+
+</div>

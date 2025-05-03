@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "SSX9XHmSKNGGOJaXQnsc31YAuvjSvdLnGr5XLYExhzY=",
+  "Hash": "sM3zTS5pbYEul51h856f7OQyxvhMmnKgWjXTMrntEnM=",
   "Source": "LibraryManagement",
   "BasePath": "_content/LibraryManagement",
   "Mode": "Default",
@@ -164,12 +164,12 @@
       "OriginalItemSpec": "C:\\ProjetosAvulsosDotNet\\LibraryManagement\\obj\\Debug\\net9.0\\scopedcss\\bundle\\LibraryManagement.styles.css"
     },
     {
-      "Identity": "C:\\ProjetosAvulsosDotNet\\LibraryManagement\\obj\\Debug\\net9.0\\compressed\\4bxeljtew8-9tmbobko8c.gz",
+      "Identity": "C:\\ProjetosAvulsosDotNet\\LibraryManagement\\obj\\Debug\\net9.0\\compressed\\4bxeljtew8-fcfmoy7893.gz",
       "SourceId": "LibraryManagement",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\ProjetosAvulsosDotNet\\LibraryManagement\\obj\\Debug\\net9.0\\compressed\\",
       "BasePath": "_content/LibraryManagement",
-      "RelativePath": "js/site#[.{fingerprint=9tmbobko8c}]?.js.gz",
+      "RelativePath": "js/site#[.{fingerprint=fcfmoy7893}]?.js.gz",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Alternative",
@@ -178,8 +178,8 @@
       "RelatedAsset": "C:\\ProjetosAvulsosDotNet\\LibraryManagement\\wwwroot\\js\\site.js",
       "AssetTraitName": "Content-Encoding",
       "AssetTraitValue": "gzip",
-      "Fingerprint": "u9c06bx63v",
-      "Integrity": "IqCEL4HGABcJACEIgWB8knCLmagMj6M9YZfgaByXjRc=",
+      "Fingerprint": "o809fhtb99",
+      "Integrity": "iLPFcKbiQiDhPA/bNWxrgNm+XLEAncWWTc4iIshIBuI=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "C:\\ProjetosAvulsosDotNet\\LibraryManagement\\wwwroot\\js\\site.js"
@@ -1585,8 +1585,8 @@
       "RelatedAsset": "",
       "AssetTraitName": "",
       "AssetTraitValue": "",
-      "Fingerprint": "9tmbobko8c",
-      "Integrity": "PawPxZ536ydjKEKTjTt9XgIfE0lD9AXsiH3cpAstVm4=",
+      "Fingerprint": "fcfmoy7893",
+      "Integrity": "L0fxAYApSKt3gss9SHtphZJxHm4TlLkF2BkwMuI7ecw=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\js\\site.js"
@@ -4076,13 +4076,13 @@
       ]
     },
     {
-      "Route": "js/site.9tmbobko8c.js",
-      "AssetFile": "C:\\ProjetosAvulsosDotNet\\LibraryManagement\\obj\\Debug\\net9.0\\compressed\\4bxeljtew8-9tmbobko8c.gz",
+      "Route": "js/site.fcfmoy7893.js",
+      "AssetFile": "C:\\ProjetosAvulsosDotNet\\LibraryManagement\\obj\\Debug\\net9.0\\compressed\\4bxeljtew8-fcfmoy7893.gz",
       "Selectors": [
         {
           "Name": "Content-Encoding",
           "Value": "gzip",
-          "Quality": "0.001089324619"
+          "Quality": "0.001092896175"
         }
       ],
       "ResponseHeaders": [
@@ -4092,15 +4092,15 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "917"
+          "Value": "914"
         },
         {
           "Name": "ETag",
-          "Value": "\"IqCEL4HGABcJACEIgWB8knCLmagMj6M9YZfgaByXjRc=\""
+          "Value": "\"iLPFcKbiQiDhPA/bNWxrgNm+XLEAncWWTc4iIshIBuI=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Fri, 02 May 2025 13:36:17 GMT"
+          "Value": "Sat, 03 May 2025 16:41:28 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -4120,13 +4120,13 @@
         },
         {
           "Name": "ETag",
-          "Value": "W/\"PawPxZ536ydjKEKTjTt9XgIfE0lD9AXsiH3cpAstVm4=\""
+          "Value": "W/\"L0fxAYApSKt3gss9SHtphZJxHm4TlLkF2BkwMuI7ecw=\""
         }
       ],
       "EndpointProperties": [
         {
           "Name": "fingerprint",
-          "Value": "9tmbobko8c"
+          "Value": "fcfmoy7893"
         },
         {
           "Name": "label",
@@ -4134,12 +4134,12 @@
         },
         {
           "Name": "integrity",
-          "Value": "sha256-PawPxZ536ydjKEKTjTt9XgIfE0lD9AXsiH3cpAstVm4="
+          "Value": "sha256-L0fxAYApSKt3gss9SHtphZJxHm4TlLkF2BkwMuI7ecw="
         }
       ]
     },
     {
-      "Route": "js/site.9tmbobko8c.js",
+      "Route": "js/site.fcfmoy7893.js",
       "AssetFile": "C:\\ProjetosAvulsosDotNet\\LibraryManagement\\wwwroot\\js\\site.js",
       "Selectors": [],
       "ResponseHeaders": [
@@ -4149,7 +4149,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "2070"
+          "Value": "2073"
         },
         {
           "Name": "Content-Type",
@@ -4157,11 +4157,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"PawPxZ536ydjKEKTjTt9XgIfE0lD9AXsiH3cpAstVm4=\""
+          "Value": "\"L0fxAYApSKt3gss9SHtphZJxHm4TlLkF2BkwMuI7ecw=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Fri, 02 May 2025 13:36:17 GMT"
+          "Value": "Sat, 03 May 2025 16:41:28 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -4171,7 +4171,7 @@
       "EndpointProperties": [
         {
           "Name": "fingerprint",
-          "Value": "9tmbobko8c"
+          "Value": "fcfmoy7893"
         },
         {
           "Name": "label",
@@ -4179,13 +4179,13 @@
         },
         {
           "Name": "integrity",
-          "Value": "sha256-PawPxZ536ydjKEKTjTt9XgIfE0lD9AXsiH3cpAstVm4="
+          "Value": "sha256-L0fxAYApSKt3gss9SHtphZJxHm4TlLkF2BkwMuI7ecw="
         }
       ]
     },
     {
-      "Route": "js/site.9tmbobko8c.js.gz",
-      "AssetFile": "C:\\ProjetosAvulsosDotNet\\LibraryManagement\\obj\\Debug\\net9.0\\compressed\\4bxeljtew8-9tmbobko8c.gz",
+      "Route": "js/site.fcfmoy7893.js.gz",
+      "AssetFile": "C:\\ProjetosAvulsosDotNet\\LibraryManagement\\obj\\Debug\\net9.0\\compressed\\4bxeljtew8-fcfmoy7893.gz",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -4194,7 +4194,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "917"
+          "Value": "914"
         },
         {
           "Name": "Content-Type",
@@ -4202,11 +4202,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"IqCEL4HGABcJACEIgWB8knCLmagMj6M9YZfgaByXjRc=\""
+          "Value": "\"iLPFcKbiQiDhPA/bNWxrgNm+XLEAncWWTc4iIshIBuI=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Fri, 02 May 2025 13:36:17 GMT"
+          "Value": "Sat, 03 May 2025 16:41:28 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -4224,7 +4224,7 @@
       "EndpointProperties": [
         {
           "Name": "fingerprint",
-          "Value": "9tmbobko8c"
+          "Value": "fcfmoy7893"
         },
         {
           "Name": "label",
@@ -4232,18 +4232,18 @@
         },
         {
           "Name": "integrity",
-          "Value": "sha256-IqCEL4HGABcJACEIgWB8knCLmagMj6M9YZfgaByXjRc="
+          "Value": "sha256-iLPFcKbiQiDhPA/bNWxrgNm+XLEAncWWTc4iIshIBuI="
         }
       ]
     },
     {
       "Route": "js/site.js",
-      "AssetFile": "C:\\ProjetosAvulsosDotNet\\LibraryManagement\\obj\\Debug\\net9.0\\compressed\\4bxeljtew8-9tmbobko8c.gz",
+      "AssetFile": "C:\\ProjetosAvulsosDotNet\\LibraryManagement\\obj\\Debug\\net9.0\\compressed\\4bxeljtew8-fcfmoy7893.gz",
       "Selectors": [
         {
           "Name": "Content-Encoding",
           "Value": "gzip",
-          "Quality": "0.001089324619"
+          "Quality": "0.001092896175"
         }
       ],
       "ResponseHeaders": [
@@ -4253,15 +4253,15 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "917"
+          "Value": "914"
         },
         {
           "Name": "ETag",
-          "Value": "\"IqCEL4HGABcJACEIgWB8knCLmagMj6M9YZfgaByXjRc=\""
+          "Value": "\"iLPFcKbiQiDhPA/bNWxrgNm+XLEAncWWTc4iIshIBuI=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Fri, 02 May 2025 13:36:17 GMT"
+          "Value": "Sat, 03 May 2025 16:41:28 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -4281,13 +4281,13 @@
         },
         {
           "Name": "ETag",
-          "Value": "W/\"PawPxZ536ydjKEKTjTt9XgIfE0lD9AXsiH3cpAstVm4=\""
+          "Value": "W/\"L0fxAYApSKt3gss9SHtphZJxHm4TlLkF2BkwMuI7ecw=\""
         }
       ],
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-PawPxZ536ydjKEKTjTt9XgIfE0lD9AXsiH3cpAstVm4="
+          "Value": "sha256-L0fxAYApSKt3gss9SHtphZJxHm4TlLkF2BkwMuI7ecw="
         }
       ]
     },
@@ -4302,7 +4302,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "2070"
+          "Value": "2073"
         },
         {
           "Name": "Content-Type",
@@ -4310,11 +4310,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"PawPxZ536ydjKEKTjTt9XgIfE0lD9AXsiH3cpAstVm4=\""
+          "Value": "\"L0fxAYApSKt3gss9SHtphZJxHm4TlLkF2BkwMuI7ecw=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Fri, 02 May 2025 13:36:17 GMT"
+          "Value": "Sat, 03 May 2025 16:41:28 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -4324,13 +4324,13 @@
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-PawPxZ536ydjKEKTjTt9XgIfE0lD9AXsiH3cpAstVm4="
+          "Value": "sha256-L0fxAYApSKt3gss9SHtphZJxHm4TlLkF2BkwMuI7ecw="
         }
       ]
     },
     {
       "Route": "js/site.js.gz",
-      "AssetFile": "C:\\ProjetosAvulsosDotNet\\LibraryManagement\\obj\\Debug\\net9.0\\compressed\\4bxeljtew8-9tmbobko8c.gz",
+      "AssetFile": "C:\\ProjetosAvulsosDotNet\\LibraryManagement\\obj\\Debug\\net9.0\\compressed\\4bxeljtew8-fcfmoy7893.gz",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -4339,7 +4339,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "917"
+          "Value": "914"
         },
         {
           "Name": "Content-Type",
@@ -4347,11 +4347,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"IqCEL4HGABcJACEIgWB8knCLmagMj6M9YZfgaByXjRc=\""
+          "Value": "\"iLPFcKbiQiDhPA/bNWxrgNm+XLEAncWWTc4iIshIBuI=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Fri, 02 May 2025 13:36:17 GMT"
+          "Value": "Sat, 03 May 2025 16:41:28 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -4369,7 +4369,7 @@
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-IqCEL4HGABcJACEIgWB8knCLmagMj6M9YZfgaByXjRc="
+          "Value": "sha256-iLPFcKbiQiDhPA/bNWxrgNm+XLEAncWWTc4iIshIBuI="
         }
       ]
     },

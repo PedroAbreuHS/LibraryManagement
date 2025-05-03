@@ -1,6 +1,7 @@
 using LibraryManagement.Data;
 using LibraryManagement.Repositories;
 using LibraryManagement.Services.LivroServices;
+using LibraryManagement.Services.UsuarioServices;
 using Microsoft.EntityFrameworkCore;
 
 var builder = WebApplication.CreateBuilder(args);
@@ -11,7 +12,9 @@ builder.Services.AddDbContext<AppDbContext>(options =>
 {
     options.UseSqlServer(builder.Configuration.GetConnectionString("DefaultConnection"));
 });
+
 builder.Services.AddScoped<ILivroRepository, LivroService>();
+builder.Services.AddScoped<IUsuarioRepository, UsuarioService>();
 
 var app = builder.Build();
 
