@@ -9,8 +9,9 @@ namespace LibraryManagement.Services.LivroServices
 {
     public class LivroService : ILivroRepository
     {
+
         private readonly AppDbContext _context;
-        private string _nomeServidor;
+        private readonly string _nomeServidor;
 
         public LivroService(AppDbContext context, IWebHostEnvironment sistema)
         {
@@ -44,20 +45,7 @@ namespace LibraryManagement.Services.LivroServices
 
         public async Task<LivroModel> Cadastrar(LivroCriacaoDto livroCriacaoDto, IFormFile foto)
         {
-            var codigoUnico = Guid.NewGuid().ToString();
-            var nomeCaminho = foto.FileName.Replace(" ", "").ToLower() + codigoUnico + livroCriacaoDto.ISBN + ".PNG";
-            string caminhoParaSalvarImagens = _nomeServidor + "\\Imagem\\";
-            
-
-            if (!Directory.Exists(caminhoParaSalvarImagens))
-            {
-                Directory.CreateDirectory(caminhoParaSalvarImagens);
-            }
-
-            using (var stream = System.IO.File.Create(caminhoParaSalvarImagens + nomeCaminho))
-            {
-                foto.CopyToAsync(stream).Wait();
-            }
+            var nomeCaminho = await GerarCaminhoDeArquivo(foto);
 
             var livro = new LivroModel
             {
@@ -77,6 +65,48 @@ namespace LibraryManagement.Services.LivroServices
             return livro;
         }
 
+        public async Task<LivroModel?> Editar(LivroEdicaoDto livroEdicaoDto, IFormFile foto)
+        {
+            var livroExistente = await _context.Livros.FirstOrDefaultAsync(l => l.Id == livroEdicaoDto.Id);
+            if (livroExistente == null)
+            {
+                return null;
+            }
+
+            var nomeCaminho = "";
+
+            if (foto != null)
+            {
+                string caminhoCapaExistente = Path.Combine(_nomeServidor, "Imagem", livroExistente.Capa);
+                if (File.Exists(caminhoCapaExistente))
+                {
+                    File.Delete(caminhoCapaExistente);    
+                }
+                
+                nomeCaminho = await GerarCaminhoDeArquivo(foto);                
+            }
+
+            // Atualiza os campos
+            livroExistente.Titulo = livroEdicaoDto.Titulo;
+            livroExistente.Autor = livroEdicaoDto.Autor;
+            livroExistente.Descricao = livroEdicaoDto.Descricao;
+            livroExistente.QuantidadeEmEstoque = livroEdicaoDto.QuantidadeEmEstoque;
+            livroExistente.AnoPublicacao = livroEdicaoDto.AnoPublicacao;
+            livroExistente.ISBN = livroEdicaoDto.ISBN;
+            livroExistente.Genero = livroEdicaoDto.Genero;
+            livroExistente.DataDeAlteracao = DateTime.Now;
+
+            if (nomeCaminho != "")
+            {
+                livroExistente.Capa = nomeCaminho;
+            }            
+
+            _context.Livros.Update(livroExistente);
+            await _context.SaveChangesAsync();
+
+            return livroExistente;
+        }
+
         public bool VerificaSeJaExisteCadastro(LivroCriacaoDto livroCriacaoDto)
         {
             var livroBanco = _context.Livros.FirstOrDefault(l => l.ISBN == livroCriacaoDto.ISBN);
@@ -88,5 +118,28 @@ namespace LibraryManagement.Services.LivroServices
 
             return true;
         }
+
+        public async Task<string> GerarCaminhoDeArquivo(IFormFile foto)
+        {
+            var extensao = Path.GetExtension(foto.FileName).ToLower();
+            var nomeCaminho = Guid.NewGuid().ToString() + extensao;
+            string caminhoParaSalvarImagens = Path.Combine(_nomeServidor, "Imagem");
+
+            if (!Directory.Exists(caminhoParaSalvarImagens))
+            {
+                Directory.CreateDirectory(caminhoParaSalvarImagens);
+            }
+
+            string caminhoCompleto = Path.Combine(caminhoParaSalvarImagens, nomeCaminho);
+
+            using (var stream = new FileStream(caminhoCompleto, FileMode.Create))
+            {
+                await foto.CopyToAsync(stream);
+            }
+
+            return nomeCaminho;
+        }
+
     }
+
 }

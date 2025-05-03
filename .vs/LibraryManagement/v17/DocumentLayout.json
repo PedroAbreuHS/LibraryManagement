@@ -3,16 +3,20 @@
   "WorkspaceRootPath": "C:\\ProjetosAvulsosDotNet\\LibraryManagement\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{119C487B-4C4D-41E5-9533-2E26994F0BF2}|LibraryManagement.csproj|c:\\projetosavulsosdotnet\\librarymanagement\\views\\livro\\detalhes.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{119C487B-4C4D-41E5-9533-2E26994F0BF2}|LibraryManagement.csproj|solutionrelative:views\\livro\\detalhes.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{119C487B-4C4D-41E5-9533-2E26994F0BF2}|LibraryManagement.csproj|c:\\projetosavulsosdotnet\\librarymanagement\\views\\livro\\editar.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{119C487B-4C4D-41E5-9533-2E26994F0BF2}|LibraryManagement.csproj|solutionrelative:views\\livro\\editar.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{119C487B-4C4D-41E5-9533-2E26994F0BF2}|LibraryManagement.csproj|c:\\projetosavulsosdotnet\\librarymanagement\\views\\livro\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{119C487B-4C4D-41E5-9533-2E26994F0BF2}|LibraryManagement.csproj|solutionrelative:views\\livro\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{119C487B-4C4D-41E5-9533-2E26994F0BF2}|LibraryManagement.csproj|c:\\projetosavulsosdotnet\\librarymanagement\\services\\livroservices\\livroservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{119C487B-4C4D-41E5-9533-2E26994F0BF2}|LibraryManagement.csproj|solutionrelative:services\\livroservices\\livroservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{119C487B-4C4D-41E5-9533-2E26994F0BF2}|LibraryManagement.csproj|c:\\projetosavulsosdotnet\\librarymanagement\\controllers\\livrocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{119C487B-4C4D-41E5-9533-2E26994F0BF2}|LibraryManagement.csproj|solutionrelative:controllers\\livrocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{119C487B-4C4D-41E5-9533-2E26994F0BF2}|LibraryManagement.csproj|c:\\projetosavulsosdotnet\\librarymanagement\\dto\\livroedicaodto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{119C487B-4C4D-41E5-9533-2E26994F0BF2}|LibraryManagement.csproj|solutionrelative:dto\\livroedicaodto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -22,7 +26,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 2,
+          "SelectedChildIndex": 3,
           "Children": [
             {
               "$type": "Bookmark",
@@ -34,28 +38,41 @@
             },
             {
               "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "LivroEdicaoDto.cs",
+              "DocumentMoniker": "C:\\ProjetosAvulsosDotNet\\LibraryManagement\\Dto\\LivroEdicaoDto.cs",
+              "RelativeDocumentMoniker": "Dto\\LivroEdicaoDto.cs",
+              "ToolTip": "C:\\ProjetosAvulsosDotNet\\LibraryManagement\\Dto\\LivroEdicaoDto.cs",
+              "RelativeToolTip": "Dto\\LivroEdicaoDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAApAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-03T13:33:12.98Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "Detalhes.cshtml",
-              "DocumentMoniker": "C:\\ProjetosAvulsosDotNet\\LibraryManagement\\Views\\Livro\\Detalhes.cshtml",
-              "RelativeDocumentMoniker": "Views\\Livro\\Detalhes.cshtml",
-              "ToolTip": "C:\\ProjetosAvulsosDotNet\\LibraryManagement\\Views\\Livro\\Detalhes.cshtml",
-              "RelativeToolTip": "Views\\Livro\\Detalhes.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABsAAAAKAAAAAAAAAA==",
+              "Title": "Editar.cshtml",
+              "DocumentMoniker": "C:\\ProjetosAvulsosDotNet\\LibraryManagement\\Views\\Livro\\Editar.cshtml",
+              "RelativeDocumentMoniker": "Views\\Livro\\Editar.cshtml",
+              "ToolTip": "C:\\ProjetosAvulsosDotNet\\LibraryManagement\\Views\\Livro\\Editar.cshtml",
+              "RelativeToolTip": "Views\\Livro\\Editar.cshtml",
+              "ViewState": "AgIAADMAAAAAAAAAAAAAAE0AAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-05-02T13:58:52.806Z",
+              "WhenOpened": "2025-05-03T13:31:02.733Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "Index.cshtml",
-              "DocumentMoniker": "C:\\ProjetosAvulsosDotNet\\LibraryManagement\\Views\\Livro\\Index.cshtml",
-              "RelativeDocumentMoniker": "Views\\Livro\\Index.cshtml",
-              "ToolTip": "C:\\ProjetosAvulsosDotNet\\LibraryManagement\\Views\\Livro\\Index.cshtml",
-              "RelativeToolTip": "Views\\Livro\\Index.cshtml",
-              "ViewState": "AgIAABgAAAAAAAAAAAAAADgAAACUAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-05-02T13:47:33.464Z",
+              "Title": "LivroService.cs",
+              "DocumentMoniker": "C:\\ProjetosAvulsosDotNet\\LibraryManagement\\Services\\LivroServices\\LivroService.cs",
+              "RelativeDocumentMoniker": "Services\\LivroServices\\LivroService.cs",
+              "ToolTip": "C:\\ProjetosAvulsosDotNet\\LibraryManagement\\Services\\LivroServices\\LivroService.cs",
+              "RelativeToolTip": "Services\\LivroServices\\LivroService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAJAAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-03T12:49:16.011Z",
               "EditorCaption": ""
             },
             {
@@ -66,9 +83,10 @@
               "RelativeDocumentMoniker": "Controllers\\LivroController.cs",
               "ToolTip": "C:\\ProjetosAvulsosDotNet\\LibraryManagement\\Controllers\\LivroController.cs",
               "RelativeToolTip": "Controllers\\LivroController.cs",
-              "ViewState": "AgIAAAUAAAAAAAAAAAAQwCgAAAASAAAAAAAAAA==",
+              "ViewState": "AgIAAEIAAAAAAAAAAIA8wFoAAABYAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-02T13:45:38.343Z"
+              "WhenOpened": "2025-05-02T13:45:38.343Z",
+              "EditorCaption": ""
             }
           ]
         }

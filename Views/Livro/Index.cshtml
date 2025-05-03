@@ -63,7 +63,7 @@
                             <td> <i class="bi bi-calendar-date"></i> @livro.DataDeCadastro.ToString("dd/MM/yyyy") </td>
                             <td class="d-flex flex-column flex-md-row gap-2">
                                 <a class="btn btn-warning flex-fill" asp-action="Detalhes" asp-controller="Livro" asp-route-id="@livro.Id" > <i class="bi bi-file-earmark-zip"></i> Detalhes </a>
-                                <a class="btn btn-primary flex-fill"> <i class="bi bi-pencil"></i> Editar </a>
+                                <a class="btn btn-primary flex-fill" asp-action="Editar" asp-controller="Livro" asp-route-id="@livro.Id" > <i class="bi bi-pencil"></i> Editar </a>
                             </td>
                         </tr>
                     }

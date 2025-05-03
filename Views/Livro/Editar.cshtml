@@ -1,0 +1,115 @@
+﻿@using LibraryManagement.Dto
+@model LivroEdicaoDto
+
+@if (TempData["MensagemSucesso"] != null)
+{
+    <div class="alert alert-success text-bg-dark" role="alert">
+        @TempData["MensagemSucesso"]
+    </div>
+}
+
+@if (TempData["MensagemErro"] != null)
+{
+    <div class="alert alert-danger text-bg-dark" role="alert">
+        @TempData["MensagemErro"]
+    </div>
+}
+
+<div class="container mt-5">
+
+    <h2> <i class="bi bi-book display-4 text-primary me-3"></i> Editar o Livro - @Model.Titulo </h2>
+
+    <form method="post" enctype="multipart/form-data" asp-action="Editar" asp-controller="Livro">
+
+        <input type="hidden" asp-for="Id" />
+
+        @if (Model.Capa != null)
+        {
+            <div class="text-center my-4">
+                <label for="ImageFile">
+                    <img src="/Imagem/@Model.Capa" id="img" class="img-fluid" style="width:150px; height:200px; object-fit: cover; border-radius: 12px;" />
+                </label>
+            </div>
+        }
+
+        <div class="mb-3">
+            <label class="form-label"> Capa do Livro: </label>
+            <input id="ImageFile" type="file" name="foto" class="form-control shadow-none" asp-for="Capa"/>
+            <span asp-validation-for="Capa" class="text-danger"></span>
+        </div>
+
+        <div class="mb-3">
+            <label class="form-label"> Título do Livro: </label>
+            <input type="text" class="form-control shadow-none" asp-for="Titulo" />
+            <span asp-validation-for="Titulo" class="text-danger"></span>
+        </div>
+
+        <div class="mb-3">
+            <label class="form-label"> Autor do Livro: </label>
+            <input type="text" class="form-control shadow-none" asp-for="Autor" />
+            <span asp-validation-for="Autor" class="text-danger"></span>
+        </div>
+
+        <div class="mb-3">
+            <label class="form-label"> Descricao do Livro: </label>
+            <textarea asp-for="Descricao" class="form-control shadow-none"></textarea>
+            <span asp-validation-for="Descricao" class="text-danger"></span>
+        </div>
+
+        <div class="row g-3">
+            <div class="col-12 col-md-6">
+                <label class="form-label"> Ano Publicação do Livro: </label>
+                <input type="datetime" class="form-control shadow-none" asp-for="AnoPublicacao" />
+                <span asp-validation-for="AnoPublicacao" class="text-danger"></span>
+            </div>
+            <div class="col-12 col-md-6">
+                <label class="form-label"> Genero do Livro: </label>
+                <input type="text" class="form-control shadow-none" asp-for="Genero" />
+                <span asp-validation-for="Genero" class="text-danger"></span>
+            </div>
+        </div>
+
+        <div class="row g-3 mt-1">
+            <div class="col-12 col-md-6">
+                <label class="form-label"> Quantidade em Estoque do Livro: </label>
+                <input type="number" min="1" class="form-control shadow-none" asp-for="QuantidadeEmEstoque" />
+                <span asp-validation-for="QuantidadeEmEstoque" class="text-danger"></span>
+            </div>
+
+            <input type="hidden" asp-for="ISBN" />
+            <div class="col-12 col-md-6">
+                <label class="form-label"> ISBN do Livro: </label>
+                <input type="text" class="form-control shadow-none" asp-for="ISBN" disabled />
+                <span asp-validation-for="ISBN" class="text-danger"></span>
+            </div>
+        </div>
+
+        <div class="btn-box d-flex flex-column flex-md-row gap-2 mt-4">
+            <button type="submit" class="btn btn-success w-100 w-md-50"> <i class="bi bi-plus-circle" ></i> Confirmar Edição </button>
+            <a class="btn btn-info w-100 w-md-50" asp-action="Index" asp-controller="Livro"> <i class="bi bi-arrow-left-circle"></i> Voltar </a>
+        </div>
+
+    </form>
+
+</div>
+
+<script>
+    const inputFile = document.querySelector("#ImageFile");
+
+    inputFile.addEventListener("change", function (e) {
+        const inputTarget = e.target;
+        const file = inputTarget.files[0];
+
+        if (file) {
+            const reader = new FileReader();
+
+            reader.addEventListener("load", function (e) {
+                const readerTarget = e.target;
+                const img = document.querySelector("#img");
+                img.src = readerTarget.result;
+            });
+
+            reader.readAsDataURL(file);
+        }
+    });
+</script>

@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "ufOQrPVtbcTc7SaaNoM4ZjikdNB8reVMVGm3r+N0BPs=",
+  "Hash": "SSX9XHmSKNGGOJaXQnsc31YAuvjSvdLnGr5XLYExhzY=",
   "Source": "LibraryManagement",
   "BasePath": "_content/LibraryManagement",
   "Mode": "Default",
@@ -1485,6 +1485,27 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\favicon.ico"
+    },
+    {
+      "Identity": "C:\\ProjetosAvulsosDotNet\\LibraryManagement\\wwwroot\\Imagem\\8a261c43-de88-49aa-a56e-83a3b6125d48.webp",
+      "SourceId": "LibraryManagement",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\ProjetosAvulsosDotNet\\LibraryManagement\\wwwroot\\",
+      "BasePath": "_content/LibraryManagement",
+      "RelativePath": "Imagem/8a261c43-de88-49aa-a56e-83a3b6125d48#[.{fingerprint}]?.webp",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "ll1m1wn7xu",
+      "Integrity": "Z/3KSoSJ6LTjBV1P6d8Atb1YZFWsPaDr98JgQp+WW+0=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\Imagem\\8a261c43-de88-49aa-a56e-83a3b6125d48.webp"
     },
     {
       "Identity": "C:\\ProjetosAvulsosDotNet\\LibraryManagement\\wwwroot\\Imagem\\amigoimaginario.jpeg0a52caac-5e7c-470b-96c0-561eb259460f321456987654.PNG",
@@ -3723,6 +3744,88 @@
         {
           "Name": "integrity",
           "Value": "sha256-jcY0RXFOlcp4VNTCcYQtWVZZBlr+ZY+AOv6/0S5dnF8="
+        }
+      ]
+    },
+    {
+      "Route": "Imagem/8a261c43-de88-49aa-a56e-83a3b6125d48.ll1m1wn7xu.webp",
+      "AssetFile": "C:\\ProjetosAvulsosDotNet\\LibraryManagement\\wwwroot\\Imagem\\8a261c43-de88-49aa-a56e-83a3b6125d48.webp",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "78506"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/webp"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"Z/3KSoSJ6LTjBV1P6d8Atb1YZFWsPaDr98JgQp+WW+0=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sat, 03 May 2025 13:42:59 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "ll1m1wn7xu"
+        },
+        {
+          "Name": "label",
+          "Value": "Imagem/8a261c43-de88-49aa-a56e-83a3b6125d48.webp"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-Z/3KSoSJ6LTjBV1P6d8Atb1YZFWsPaDr98JgQp+WW+0="
+        }
+      ]
+    },
+    {
+      "Route": "Imagem/8a261c43-de88-49aa-a56e-83a3b6125d48.webp",
+      "AssetFile": "C:\\ProjetosAvulsosDotNet\\LibraryManagement\\wwwroot\\Imagem\\8a261c43-de88-49aa-a56e-83a3b6125d48.webp",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "78506"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/webp"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"Z/3KSoSJ6LTjBV1P6d8Atb1YZFWsPaDr98JgQp+WW+0=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sat, 03 May 2025 13:42:59 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-Z/3KSoSJ6LTjBV1P6d8Atb1YZFWsPaDr98JgQp+WW+0="
         }
       ]
     },
