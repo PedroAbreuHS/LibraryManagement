@@ -1,5 +1,6 @@
 using LibraryManagement.Data;
 using LibraryManagement.Repositories;
+using LibraryManagement.Services.Autenticacao;
 using LibraryManagement.Services.LivroServices;
 using LibraryManagement.Services.UsuarioServices;
 using Microsoft.EntityFrameworkCore;
@@ -15,6 +16,7 @@ builder.Services.AddDbContext<AppDbContext>(options =>
 
 builder.Services.AddScoped<ILivroRepository, LivroService>();
 builder.Services.AddScoped<IUsuarioRepository, UsuarioService>();
+builder.Services.AddScoped<IAutenticacaoRepository, AutenticacaoService>();
 
 var app = builder.Build();
 

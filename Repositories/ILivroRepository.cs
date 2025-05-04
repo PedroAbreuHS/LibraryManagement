@@ -1,4 +1,4 @@
-﻿using LibraryManagement.Dto;
+﻿using LibraryManagement.Dto.Livro;
 using LibraryManagement.Models;
 
 namespace LibraryManagement.Repositories

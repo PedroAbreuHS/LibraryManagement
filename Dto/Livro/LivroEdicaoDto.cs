@@ -1,14 +1,17 @@
 ﻿using System.ComponentModel.DataAnnotations;
 
-namespace LibraryManagement.Dto
+namespace LibraryManagement.Dto.Livro
 {
-    public class LivroCriacaoDto
+    public class LivroEdicaoDto
     {
+        public int Id { get; set; }        
+        public string? Capa { get; set; }
+
         [Required(ErrorMessage = "Insira um título!")]
         public string Titulo { get; set; } = string.Empty;
 
         [Required(ErrorMessage = "Insira uma descrição!")]
-        public string Descricao { get; set; } = string.Empty;        
+        public string Descricao { get; set; } = string.Empty;
 
         [Required(ErrorMessage = "Insira um código ISBN!")]
         public string ISBN { get; set; } = string.Empty;

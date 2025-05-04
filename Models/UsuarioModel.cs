@@ -34,8 +34,7 @@ namespace LibraryManagement.Models
 
         public DateTime DataCadastro { get; set; } = DateTime.Now;
         public DateTime DataAlteracao { get; set; } = DateTime.Now;
-
-        [Required]
+        
         public EnderecoModel Endereco { get; set; } = null!;
     }
 }

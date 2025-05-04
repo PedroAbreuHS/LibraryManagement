@@ -1,4 +1,6 @@
-﻿using LibraryManagement.Repositories;
+﻿using LibraryManagement.Dto.Usuario;
+using LibraryManagement.Enums;
+using LibraryManagement.Repositories;
 using Microsoft.AspNetCore.Mvc;
 
 namespace LibraryManagement.Controllers
@@ -16,7 +18,62 @@ namespace LibraryManagement.Controllers
         {
             var usuarios = await _usuarioRepository.BuscarUsuarios(id);
 
-            return View(usuarios);
+            if (id == 0)
+            {
+                return View("Clientes", usuarios); // view Clientes.cshtml
+            }
+
+            return View("Funcionarios", usuarios); // view Funcionarios.cshtml
+        }
+
+
+
+
+        [HttpGet]
+        public ActionResult Cadastrar(int? id)
+        {
+            ViewBag.Perfil = PerfilEnum.Administrador;
+
+            if (id != null)
+            {
+                ViewBag.Perfil = PerfilEnum.Cliente;
+            }
+
+            return View();
+        }
+
+
+        [HttpPost]
+        public async Task<ActionResult> Cadastrar(UsuarioCriacaoDto usuarioCriacao)
+        {
+            foreach (var modelState in ModelState)
+            {
+                foreach (var error in modelState.Value.Errors)
+                {
+                    Console.WriteLine($"Erro em {modelState.Key}: {error.ErrorMessage}");
+                }
+            }
+
+            if (ModelState.IsValid)
+            {
+                if (!await _usuarioRepository.VerificaSeUsuarioEEmailExistem(usuarioCriacao))
+                {
+                    TempData["MensagemErro"] = "Já existe email/usuario cadastrado!";
+                    return View(usuarioCriacao);
+                }
+
+                //cadastrar
+                var usuarioCadastro = await _usuarioRepository.Cadastrar(usuarioCriacao);
+
+                TempData["MensagemSucesso"] = "Usuário Cadastrado Com Sucesso!";
+                if (usuarioCadastro.Perfil != PerfilEnum.Cliente)
+                {
+                    return RedirectToAction("Index", "Funcionario");
+                }
+                return RedirectToAction("Index", "Cliente", new {Id = 0});
+            }
+            TempData["MensagemErro"] = "Verifique os dados informados";
+            return View(usuarioCriacao);
         }
     }
 }
