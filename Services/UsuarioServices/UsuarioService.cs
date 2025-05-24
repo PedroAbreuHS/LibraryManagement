@@ -19,6 +19,12 @@ namespace LibraryManagement.Services.UsuarioServices
             _autenticacao = autenticacao;
         }
 
+        public async Task<UsuarioModel> BuscarUsuarioPorId(int? id)
+        {
+            var usuario = await _context.Usuarios.FirstOrDefaultAsync(u => u.Id == id);
+            return usuario;
+        }
+
         public async Task<List<UsuarioModel>> BuscarUsuarios(int? id)
         {            
             // id == 0 → clientes
@@ -38,8 +44,6 @@ namespace LibraryManagement.Services.UsuarioServices
                     .ToListAsync();
             }
         }
-
-
 
         public async Task<UsuarioCriacaoDto> Cadastrar(UsuarioCriacaoDto usuarioCriacaoDto)
         {
@@ -73,9 +77,6 @@ namespace LibraryManagement.Services.UsuarioServices
 
             return usuarioCriacaoDto;
         }
-
-
-
 
         public async Task<bool> VerificaSeUsuarioEEmailExistem(UsuarioCriacaoDto usuarioCriacaoDto)
         {

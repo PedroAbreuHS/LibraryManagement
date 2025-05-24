@@ -27,8 +27,6 @@ namespace LibraryManagement.Controllers
         }
 
 
-
-
         [HttpGet]
         public ActionResult Cadastrar(int? id)
         {
@@ -42,6 +40,17 @@ namespace LibraryManagement.Controllers
             return View();
         }
 
+        [HttpGet]
+        public async Task<ActionResult> Detalhes(int? id)
+        {
+            if (id != null)
+            {
+                var usuario = await _usuarioRepository.BuscarUsuarioPorId(id);
+                return View(usuario);
+            }
+
+            return RedirectToAction("Index");
+        }
 
         [HttpPost]
         public async Task<ActionResult> Cadastrar(UsuarioCriacaoDto usuarioCriacao)

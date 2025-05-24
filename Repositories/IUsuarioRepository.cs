@@ -7,6 +7,8 @@ namespace LibraryManagement.Repositories
     {
         Task<List<UsuarioModel>> BuscarUsuarios(int? id);
 
+        Task<UsuarioModel> BuscarUsuarioPorId(int? id);
+
         Task<bool> VerificaSeUsuarioEEmailExistem(UsuarioCriacaoDto usuarioCriacaoDto);
 
         Task<UsuarioCriacaoDto> Cadastrar(UsuarioCriacaoDto usuarioCriacaoDto);
