@@ -83,12 +83,6 @@ C:\ProjetosAvulsosDotNet\LibraryManagement\obj\Debug\net9.0\compressed\vb15nepvj
 C:\ProjetosAvulsosDotNet\LibraryManagement\obj\Debug\net9.0\staticwebassets.build.json
 C:\ProjetosAvulsosDotNet\LibraryManagement\obj\Debug\net9.0\staticwebassets.development.json
 C:\ProjetosAvulsosDotNet\LibraryManagement\obj\Debug\net9.0\staticwebassets.build.endpoints.json
-C:\ProjetosAvulsosDotNet\LibraryManagement\obj\Debug\net9.0\staticwebassets\msbuild.LibraryManagement.Microsoft.AspNetCore.StaticWebAssets.props
-C:\ProjetosAvulsosDotNet\LibraryManagement\obj\Debug\net9.0\staticwebassets\msbuild.LibraryManagement.Microsoft.AspNetCore.StaticWebAssetEndpoints.props
-C:\ProjetosAvulsosDotNet\LibraryManagement\obj\Debug\net9.0\staticwebassets\msbuild.build.LibraryManagement.props
-C:\ProjetosAvulsosDotNet\LibraryManagement\obj\Debug\net9.0\staticwebassets\msbuild.buildMultiTargeting.LibraryManagement.props
-C:\ProjetosAvulsosDotNet\LibraryManagement\obj\Debug\net9.0\staticwebassets\msbuild.buildTransitive.LibraryManagement.props
-C:\ProjetosAvulsosDotNet\LibraryManagement\obj\Debug\net9.0\staticwebassets.pack.json
 C:\ProjetosAvulsosDotNet\LibraryManagement\obj\Debug\net9.0\LibraryManagement.dll
 C:\ProjetosAvulsosDotNet\LibraryManagement\obj\Debug\net9.0\refint\LibraryManagement.dll
 C:\ProjetosAvulsosDotNet\LibraryManagement\obj\Debug\net9.0\LibraryManagement.pdb
@@ -230,3 +224,4 @@ C:\ProjetosAvulsosDotNet\LibraryManagement\obj\Debug\net9.0\compressed\bzziecs8a
 C:\ProjetosAvulsosDotNet\LibraryManagement\obj\Debug\net9.0\LibraryManagement.sourcelink.json
 C:\ProjetosAvulsosDotNet\LibraryManagement\obj\Debug\net9.0\compressed\4bxeljtew8-fcfmoy7893.gz
 C:\ProjetosAvulsosDotNet\LibraryManagement\obj\Debug\net9.0\staticwebassets.upToDateCheck.txt
+C:\ProjetosAvulsosDotNet\LibraryManagement\obj\Debug\net9.0\staticwebassets.build.json.cache

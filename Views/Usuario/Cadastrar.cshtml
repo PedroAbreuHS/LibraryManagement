@@ -83,7 +83,7 @@
 
             <div class="mb-1 col-4">
                 <label class="form-label"> Logradouro: </label>
-                <input type="text" class="form-control shadow-none" asp-for="Logradouro" />
+                <input type="text" class="form-control shadow-none" asp-for="Logradouro" id="input-logradouro"/>
                 <span asp-validation-for="Logradouro" class="text-danger"></span>
             </div>
 
@@ -95,13 +95,13 @@
 
             <div class="mb-1 col-4">
                 <label class="form-label"> Bairro: </label>
-                <input type="text" class="form-control shadow-none" asp-for="Bairro" />
+                <input type="text" class="form-control shadow-none" asp-for="Bairro" id="input-bairro"/>
                 <span asp-validation-for="Bairro" class="text-danger"></span>
             </div>
 
             <div class="mb-1 col-2">
                 <label class="form-label"> Cidade: </label>
-                <input type="text" class="form-control shadow-none" asp-for="Cidade" />
+                <input type="text" class="form-control shadow-none" asp-for="Cidade" id="input-cidade"/>
                 <span asp-validation-for="Cidade" class="text-danger"></span>
             </div>
 
@@ -111,19 +111,19 @@
 
             <div class="mb-1 col-4">
                 <label class="form-label"> CEP: </label>
-                <input type="text" class="form-control shadow-none" asp-for="CEP" />
+                <input type="text" class="form-control shadow-none" asp-for="CEP" id="input-cep"/>
                 <span asp-validation-for="CEP" class="text-danger"></span>
             </div>
 
             <div class="mb-1 col-4">
                 <label class="form-label"> Estado: </label>
-                <input type="text" class="form-control shadow-none" asp-for="Estado" />
+                <input type="text" class="form-control shadow-none" asp-for="Estado" id="input-estado"/>
                 <span asp-validation-for="Estado" class="text-danger"></span>
             </div>
 
             <div class="mb-1 col-4">
                 <label class="form-label"> Complemento: </label>
-                <input type="text" class="form-control shadow-none" asp-for="Complemento" />
+                <input type="text" class="form-control shadow-none" asp-for="Complemento" id="input-complemento"/>
                 <span asp-validation-for="Complemento" class="text-danger"></span>
             </div>
 
@@ -160,3 +160,46 @@
     </form>
 
 </div>
+
+<script src="https://code.jquery.com/jquery-3.7.1.js" integrity="sha256-eKhayi8LEQwp4NKxN+CfCh+3qOVUtJn3QNZ0TciWLP4=" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.mask/1.14.16/jquery.mask.min.js"></script>
+
+<script>
+    $(document).ready(function(){
+        $('#input-cep').mask('00000-000');
+    });
+
+    var inputLogradouro = document.querySelector("#input-logradouro");
+    var inputBairro = document.querySelector("#input-bairro");
+    var inputCidade = document.querySelector("#input-cidade");
+    var inputEstado = document.querySelector("#input-estado");
+    var inputComplemento = document.querySelector("#input-complemento");
+
+    $('#input-cep').focusout(async function(e)
+    {
+        var target = e.target;
+        var value = target.value.replace(/\D/g, ''); // remove tudo que não é número
+        var url = `https://viacep.com.br/ws/${value}/json/`;
+
+        try {
+            var resposta = await fetch(url);
+            var dados = await resposta.json();
+
+            if (dados.erro) {
+                alert("CEP não encontrado!");
+                return;
+            }
+
+            inputLogradouro.value = dados.logradouro || '';
+            inputBairro.value = dados.bairro || '';
+            inputCidade.value = dados.localidade || '';
+            inputEstado.value = dados.uf || '';
+            inputComplemento.value = dados.complemento || '';
+
+        } catch (err) {
+            console.error("Erro ao buscar o CEP:", err);
+            alert("Erro ao buscar o CEP. Tente novamente.");
+        }
+    });
+
+</script>
