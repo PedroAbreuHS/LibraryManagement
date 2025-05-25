@@ -12,5 +12,7 @@ namespace LibraryManagement.Repositories
         Task<bool> VerificaSeUsuarioEEmailExistem(UsuarioCriacaoDto usuarioCriacaoDto);
 
         Task<UsuarioCriacaoDto> Cadastrar(UsuarioCriacaoDto usuarioCriacaoDto);
+
+        Task<UsuarioModel> MudarSituacaoUsuario(int? id);
     }
 }

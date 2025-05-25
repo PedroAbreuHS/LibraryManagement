@@ -1,5 +1,6 @@
 ﻿using LibraryManagement.Dto.Usuario;
 using LibraryManagement.Enums;
+using LibraryManagement.Models;
 using LibraryManagement.Repositories;
 using Microsoft.AspNetCore.Mvc;
 
@@ -84,5 +85,32 @@ namespace LibraryManagement.Controllers
             TempData["MensagemErro"] = "Verifique os dados informados";
             return View(usuarioCriacao);
         }
+
+        [HttpPost]
+        public async Task<ActionResult> MudarSituacaoUsuario(UsuarioModel usuarioModel)
+        {
+
+            if (usuarioModel.Id != 0 && usuarioModel.Id != null)
+            {
+                var usuarioExistente = await _usuarioRepository.MudarSituacaoUsuario(usuarioModel.Id);
+
+                if (usuarioExistente.Situacao)
+                {
+                    TempData["MensagemSucesso"] = "Usuário Ativo com Sucesso!";
+                }
+                TempData["MensagemSucesso"] = "Usuário Inativado com Sucesso!";
+                
+
+                if (usuarioExistente.Perfil != PerfilEnum.Cliente)
+                {
+                    return RedirectToAction("Index", "Funcionario");
+                }
+                return RedirectToAction("Index", "Cliente", new { Id = 0 });
+            }
+
+            return RedirectToAction("Index");
+        }
+
+
     }
 }

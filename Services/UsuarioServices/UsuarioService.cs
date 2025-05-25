@@ -21,7 +21,9 @@ namespace LibraryManagement.Services.UsuarioServices
 
         public async Task<UsuarioModel> BuscarUsuarioPorId(int? id)
         {
-            var usuario = await _context.Usuarios.FirstOrDefaultAsync(u => u.Id == id);
+            var usuario = await _context.Usuarios.Include(x => x.Endereco)
+                .FirstOrDefaultAsync(u => u.Id == id);
+                
             return usuario;
         }
 
@@ -78,6 +80,34 @@ namespace LibraryManagement.Services.UsuarioServices
             return usuarioCriacaoDto;
         }
 
+        public async Task<UsuarioModel> MudarSituacaoUsuario(int? id)
+        {
+            
+            var usuarioExistente = await _context.Usuarios.FirstOrDefaultAsync(u => u.Id == id);
+
+            if (usuarioExistente.Situacao != null)
+            {
+                if (usuarioExistente.Situacao == true)
+                {
+                    usuarioExistente.Situacao = false;
+                }
+                else
+                {
+                    usuarioExistente.Situacao = true;
+                }
+
+                usuarioExistente.DataAlteracao = DateTime.Now;
+
+                _context.Update(usuarioExistente);
+                await _context.SaveChangesAsync();
+
+                return usuarioExistente;
+            }
+
+
+            return usuarioExistente;
+        }
+
         public async Task<bool> VerificaSeUsuarioEEmailExistem(UsuarioCriacaoDto usuarioCriacaoDto)
         {
             var usuarioBanco = await _context.Usuarios
@@ -91,5 +121,7 @@ namespace LibraryManagement.Services.UsuarioServices
 
             return false;
         }
+
+
     }
 }

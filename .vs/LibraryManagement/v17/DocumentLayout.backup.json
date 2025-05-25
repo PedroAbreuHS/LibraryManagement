@@ -1,12 +1,7 @@
 {
   "Version": 1,
   "WorkspaceRootPath": "C:\\ProjetosAvulsosDotNet\\LibraryManagement\\",
-  "Documents": [
-    {
-      "AbsoluteMoniker": "D:0:0:{119C487B-4C4D-41E5-9533-2E26994F0BF2}|LibraryManagement.csproj|c:\\projetosavulsosdotnet\\librarymanagement\\views\\usuario\\detalhes.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{119C487B-4C4D-41E5-9533-2E26994F0BF2}|LibraryManagement.csproj|solutionrelative:views\\usuario\\detalhes.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    }
-  ],
+  "Documents": [],
   "DocumentGroupContainers": [
     {
       "Orientation": 0,
@@ -14,7 +9,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 2,
+          "SelectedChildIndex": -1,
           "Children": [
             {
               "$type": "Bookmark",
@@ -23,19 +18,6 @@
             {
               "$type": "Bookmark",
               "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "Detalhes.cshtml",
-              "DocumentMoniker": "C:\\ProjetosAvulsosDotNet\\LibraryManagement\\Views\\Usuario\\Detalhes.cshtml",
-              "RelativeDocumentMoniker": "Views\\Usuario\\Detalhes.cshtml",
-              "ToolTip": "C:\\ProjetosAvulsosDotNet\\LibraryManagement\\Views\\Usuario\\Detalhes.cshtml",
-              "RelativeToolTip": "Views\\Usuario\\Detalhes.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABcAAAARAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-05-24T12:59:13.939Z",
-              "EditorCaption": ""
             }
           ]
         }
