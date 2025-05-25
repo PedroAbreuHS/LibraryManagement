@@ -13,6 +13,8 @@ namespace LibraryManagement.Repositories
 
         Task<UsuarioCriacaoDto> Cadastrar(UsuarioCriacaoDto usuarioCriacaoDto);
 
+        Task<UsuarioModel> Editar(UsuarioEdicaoDto usuarioEdicaoDto);
+
         Task<UsuarioModel> MudarSituacaoUsuario(int? id);
     }
 }

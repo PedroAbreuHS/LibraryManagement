@@ -223,5 +223,4 @@ C:\ProjetosAvulsosDotNet\LibraryManagement\obj\Debug\net9.0\LibraryM.685EF3B5.Up
 C:\ProjetosAvulsosDotNet\LibraryManagement\obj\Debug\net9.0\compressed\bzziecs8aa-0hfqr06k1p.gz
 C:\ProjetosAvulsosDotNet\LibraryManagement\obj\Debug\net9.0\LibraryManagement.sourcelink.json
 C:\ProjetosAvulsosDotNet\LibraryManagement\obj\Debug\net9.0\compressed\4bxeljtew8-fcfmoy7893.gz
-C:\ProjetosAvulsosDotNet\LibraryManagement\obj\Debug\net9.0\staticwebassets.upToDateCheck.txt
 C:\ProjetosAvulsosDotNet\LibraryManagement\obj\Debug\net9.0\staticwebassets.build.json.cache

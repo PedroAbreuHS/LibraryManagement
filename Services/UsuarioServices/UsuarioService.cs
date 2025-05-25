@@ -80,6 +80,42 @@ namespace LibraryManagement.Services.UsuarioServices
             return usuarioCriacaoDto;
         }
 
+        public async Task<UsuarioModel> Editar(UsuarioEdicaoDto usuarioEdicaoDto)
+        {
+            var usuarioExistente = await _context.Usuarios
+                .Include(e => e.Endereco)
+                .FirstOrDefaultAsync(u => u.Id == usuarioEdicaoDto.Id);
+
+            if (usuarioExistente != null)
+            {
+                // Atualiza campos do usuário
+                usuarioExistente.Turno = usuarioEdicaoDto.Turno;
+                usuarioExistente.Perfil = usuarioEdicaoDto.Perfil;
+                usuarioExistente.NomeCompleto = usuarioEdicaoDto.NomeCompleto;
+                usuarioExistente.Usuario = usuarioEdicaoDto.Usuario;
+                usuarioExistente.Email = usuarioEdicaoDto.Email;
+                usuarioExistente.DataAlteracao = DateTime.Now;
+
+                // Atualiza campos do endereço
+                if (usuarioExistente.Endereco != null)
+                {
+                    usuarioExistente.Endereco.Logradouro = usuarioEdicaoDto.Endereco.Logradouro;
+                    usuarioExistente.Endereco.Numero = usuarioEdicaoDto.Endereco.Numero;
+                    usuarioExistente.Endereco.Bairro = usuarioEdicaoDto.Endereco.Bairro;
+                    usuarioExistente.Endereco.Cidade = usuarioEdicaoDto.Endereco.Cidade;
+                    usuarioExistente.Endereco.Estado = usuarioEdicaoDto.Endereco.Estado;
+                    usuarioExistente.Endereco.Complemento = usuarioEdicaoDto.Endereco.Complemento;                    
+                }
+
+                // Atualiza no contexto e salva
+                _context.Usuarios.Update(usuarioExistente);
+                await _context.SaveChangesAsync();
+            }
+
+            return usuarioExistente;
+        }
+
+
         public async Task<UsuarioModel> MudarSituacaoUsuario(int? id)
         {
             
